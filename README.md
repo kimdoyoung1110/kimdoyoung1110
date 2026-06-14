@@ -40,8 +40,9 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Styling
+### Styling & Design
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### State & Data Fetching
 ![TanStack Query](https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
@@ -55,12 +56,26 @@
 ### Build & Quality
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
 
-### Backend (Studying 📖)
+### Backend
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+### DB & Infra
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### Monitoring & Observability
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Loki](https://img.shields.io/badge/Loki-F5A800?style=for-the-badge&logo=grafana&logoColor=white)
 
 ### Tools & Collaboration
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -73,10 +88,13 @@
 
 | 프로젝트 | 설명 | 기술 |
 |---------|------|------|
-| 🌌 **[GitGalaxy](https://github.com/kimdoyoung1110/gitgalaxy)** · [🔗 Live](https://frontend-three-delta-41.vercel.app) | 팀 프로젝트 프론트엔드 (fork 후 이어서 개발 중) | TypeScript · React |
-| 🧭 **[DevRoad](https://github.com/kimdoyoung1110/DevRoad)** / **[DevDNA-web](https://github.com/kimdoyoung1110/DevDNA-web)** | 개발자 성장을 돕는 웹 서비스 (프론트 최적화 작업 포함) | TypeScript · Python |
-| 📸 **[Instagram Clone (FE)](https://github.com/kimdoyoung1110/FrontEnd)** | 인스타그램 클론 프론트엔드 | TypeScript · React |
-| 🧮 **[Coding Test](https://github.com/kimdoyoung1110/coding-test)** | 프로그래머스 알고리즘 풀이 기록 | JavaScript |
+| 🌌 **[GitGalaxy](https://github.com/kimdoyoung1110/gitgalaxy)** · [🔗 Live](https://frontend-three-delta-41.vercel.app) | GitHub 저장소 **약 1,900개 · 10만+ 데이터 포인트**를 3D 우주로 실시간 시각화. Web Worker · InstancedMesh로 **60fps** 달성 | React · Three.js · R3F |
+| 🤖 **[AI Job Chat](https://github.com/kimdoyoung1110/ai-job-chat)** | AI 상사와 대화하며 직업을 체험하는 진로 탐색 서비스 (Gemini · JWT) | React · Spring Boot · PostgreSQL |
+| 🧭 **[DevRoad](https://github.com/kimdoyoung1110/DevRoad)** | 채용 트렌드 · 모의 면접 서비스. 번들 최적화로 **TBT 72%↓**, 초기 페이로드 **99%↓** | Next.js · TypeScript · Recharts |
+| 📸 **[Instagram Clone](https://github.com/kimdoyoung1110/instagram-clone-api)** · [FE](https://github.com/kimdoyoung1110/FrontEnd) | 인스타그램 클론 — Frontend & Spring REST API | React · Spring Boot · JPA |
+| 🧮 **[Coding Test](https://github.com/kimdoyoung1110/coding-test)** | 백준 · 프로그래머스 알고리즘 풀이 기록 | JavaScript |
+
+> 🔎 더 자세한 프로젝트 성과와 경력은 **[포트폴리오 사이트](https://doyoungkim-portfolio.vercel.app/)** 에서 확인하실 수 있어요.
 
 ---
 
