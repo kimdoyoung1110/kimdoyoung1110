@@ -11,16 +11,22 @@
   <img src="https://img.shields.io/badge/Student-Developer-FF6F61?style=flat-square&logo=googlescholar&logoColor=white"/>
 </p>
 
+<p align="center">
+  <a href="https://doyoungkim-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐%20Portfolio-doyoungkim--portfolio.vercel.app-6366F1?style=for-the-badge&logoColor=white"/>
+  </a>
+</p>
+
 ---
 
 ## 🙋‍♂️ About Me
 
-- 🏢 현재 **[Slunch Factory](https://slunch.co.kr/)** 에서 프론트엔드 개발자로 일하고 있어요.
-- 🎯 React · TypeScript 기반 UI 개발이 메인입니다.
-- 🚀 **풀스택**으로 성장하기 위해 Java/Spring, Python 백엔드를 함께 공부하고 있어요.
-- 🧩 **GitGalaxy**, **인스타그램 클론** 등 팀/개인 프로젝트로 실전 경험을 쌓고 있습니다.
-- 📚 **프로그래머스**로 알고리즘을 꾸준히 풀며 CS 기초 체력을 다지는 중입니다.
-- 🌐 관심사: 웹 성능 최적화, 클린 코드, 사용자 경험(UX)
+- 🏢 현재 **[Slunch Factory](https://slunch.co.kr/)** 에서 **프론트엔드 인턴**으로 일하고 있어요. (홍대점)
+- 🚀 개발자 커뮤니티 **[Techeer](https://www.techeer.net/)** 와 교내 **앱센터** 에서 활동 중입니다.
+- 🔬 인천대 **인공지능빅데이터센터** 학생연구원으로 RAG · LLM Agent를 연구하고 있어요.
+- 🎯 React · TypeScript 기반 UI 개발이 메인이고, **데이터 시각화**와 **성능 최적화**에 강점이 있습니다.
+- 🧩 **GitGalaxy**, **DevRoad**, **인스타그램 클론** 등 팀/개인 프로젝트로 실전 경험을 쌓고 있습니다.
+- 🌐 관심사: 웹 성능 최적화, 클린 코드, 사용자 경험(UX), 3D · 데이터 시각화
 
 ---
 
@@ -90,6 +96,7 @@
 ## 📫 Contact
 
 <p align="center">
+  <a href="https://doyoungkim-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/do-young-kim-2823b53aa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://velog.io/@kdy9883/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
   <a href="https://blog.naver.com/ehdud9883"><img src="https://img.shields.io/badge/Naver%20Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
