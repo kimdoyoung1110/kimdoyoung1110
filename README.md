@@ -15,10 +15,11 @@
 
 ## 🙋‍♂️ About Me
 
-- 🎯 현재는 **프론트엔드**에 집중하고 있어요 — React · TypeScript 기반 UI 개발이 메인입니다.
+- 🏢 현재 **[Slunch Factory](https://slunch.co.kr/)** 에서 프론트엔드 개발자로 일하고 있어요.
+- 🎯 React · TypeScript 기반 UI 개발이 메인입니다.
 - 🚀 **풀스택**으로 성장하기 위해 Java/Spring, Python 백엔드를 함께 공부하고 있어요.
-- 🧩 **인스타그램 클론 프로젝트**를 통해 프론트엔드부터 CRUD API까지 직접 만들어봤습니다.
-- 📚 **백준 알고리즘**을 꾸준히 풀며 CS 기초 체력을 다지는 중입니다.
+- 🧩 **GitGalaxy**, **인스타그램 클론** 등 팀/개인 프로젝트로 실전 경험을 쌓고 있습니다.
+- 📚 **프로그래머스**로 알고리즘을 꾸준히 풀며 CS 기초 체력을 다지는 중입니다.
 - 🌐 관심사: 웹 성능 최적화, 클린 코드, 사용자 경험(UX)
 
 ---
@@ -27,10 +28,28 @@
 
 ### Frontend (Main)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Styling
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+### State & Data Fetching
+![TanStack Query](https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+### 3D / Visualization
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![React Three Fiber](https://img.shields.io/badge/React%20Three%20Fiber-black?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+### Build & Quality
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
 
 ### Backend (Studying 📖)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -48,10 +67,10 @@
 
 | 프로젝트 | 설명 | 기술 |
 |---------|------|------|
+| 🌌 **[GitGalaxy](https://github.com/kimdoyoung1110/gitgalaxy)** · [🔗 Live](https://frontend-three-delta-41.vercel.app) | 팀 프로젝트 프론트엔드 (fork 후 이어서 개발 중) | TypeScript · React |
 | 🧭 **[DevRoad](https://github.com/kimdoyoung1110/DevRoad)** / **[DevDNA-web](https://github.com/kimdoyoung1110/DevDNA-web)** | 개발자 성장을 돕는 웹 서비스 (프론트 최적화 작업 포함) | TypeScript · Python |
 | 📸 **[Instagram Clone (FE)](https://github.com/kimdoyoung1110/FrontEnd)** | 인스타그램 클론 프론트엔드 | TypeScript · React |
-| 🔗 **[Instagram Clone API](https://github.com/kimdoyoung1110/instagram-clone-api)** | 인스타그램 클론 CRUD 백엔드 API | Java |
-| 🧮 **[Coding Test](https://github.com/kimdoyoung1110/coding-test)** | 백준 알고리즘 풀이 기록 (BaekjoonHub 자동 커밋) | JavaScript |
+| 🧮 **[Coding Test](https://github.com/kimdoyoung1110/coding-test)** | 프로그래머스 알고리즘 풀이 기록 | JavaScript |
 
 ---
 
@@ -71,8 +90,10 @@
 ## 📫 Contact
 
 <p align="center">
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <!-- 블로그/노션/링크드인이 있다면 아래에 추가하세요 -->
+  <a href="https://www.linkedin.com/in/do-young-kim-2823b53aa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://velog.io/@kdy9883/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
+  <a href="https://blog.naver.com/ehdud9883"><img src="https://img.shields.io/badge/Naver%20Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
+  <a href="https://www.instagram.com/d_zer0.io/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 </p>
 
 <p align="center">
