@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-label="key stats">
+  <defs>
+    <linearGradient id="cntBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1B3A"/>
+      <stop offset="0.5" stop-color="#12275C"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <clipPath id="win1"><rect x="32" y="22" width="161" height="46"/></clipPath>
+    <clipPath id="win2"><rect x="257" y="22" width="161" height="46"/></clipPath>
+    <clipPath id="win3"><rect x="482" y="22" width="161" height="46"/></clipPath>
+    <clipPath id="win4"><rect x="707" y="22" width="161" height="46"/></clipPath>
+  </defs>
+
+  <rect width="900" height="110" rx="20" fill="url(#cntBg)"/>
+  <line x1="225" y1="24" x2="225" y2="86" stroke="#1E3A8A" stroke-width="1.5"/>
+  <line x1="450" y1="24" x2="450" y2="86" stroke="#1E3A8A" stroke-width="1.5"/>
+  <line x1="675" y1="24" x2="675" y2="86" stroke="#1E3A8A" stroke-width="1.5"/>
+
+  <g font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-weight="700" font-size="34" fill="#FFFFFF" text-anchor="middle">
+    <g clip-path="url(#win1)">
+      <g>
+        <text x="112" y="56">0</text>
+        <text x="112" y="102">60</text>
+        <text x="112" y="148">140</text>
+        <text x="112" y="194">230</text>
+        <text x="112" y="240">320</text>
+        <text x="112" y="286">410</text>
+        <text x="112" y="332">470</text>
+        <text x="112" y="378" fill="#7DD3FC">500+</text>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete"
+          values="0 0;0 -46;0 -92;0 -138;0 -184;0 -230;0 -276;0 -322"
+          begin="0.2s" dur="1.4s" fill="freeze"/>
+      </g>
+    </g>
+    <g clip-path="url(#win2)">
+      <g>
+        <text x="337" y="56">0</text>
+        <text x="337" y="102">1</text>
+        <text x="337" y="148">2</text>
+        <text x="337" y="194">3</text>
+        <text x="337" y="240">4</text>
+        <text x="337" y="286" fill="#7DD3FC">5</text>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete"
+          values="0 0;0 -46;0 -92;0 -138;0 -184;0 -230"
+          begin="0.4s" dur="1.2s" fill="freeze"/>
+      </g>
+    </g>
+    <g clip-path="url(#win3)">
+      <g>
+        <text x="562" y="56">0</text>
+        <text x="562" y="102">3</text>
+        <text x="562" y="148">6</text>
+        <text x="562" y="194">9</text>
+        <text x="562" y="240">11</text>
+        <text x="562" y="286" fill="#7DD3FC">12</text>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete"
+          values="0 0;0 -46;0 -92;0 -138;0 -184;0 -230"
+          begin="0.6s" dur="1.2s" fill="freeze"/>
+      </g>
+    </g>
+    <g clip-path="url(#win4)">
+      <g>
+        <text x="787" y="56">0</text>
+        <text x="787" y="102">15</text>
+        <text x="787" y="148">30</text>
+        <text x="787" y="194">45</text>
+        <text x="787" y="240">55</text>
+        <text x="787" y="286" fill="#7DD3FC">60</text>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete"
+          values="0 0;0 -46;0 -92;0 -138;0 -184;0 -230"
+          begin="0.8s" dur="1.2s" fill="freeze"/>
+      </g>
+    </g>
+  </g>
+
+  <g font-family="'Pretendard','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" font-weight="600" fill="#93C5FD" text-anchor="middle">
+    <text x="112" y="92">Commits — 커머스 런칭 전담</text>
+    <text x="337" y="92">서비스 레포 전담</text>
+    <text x="562" y="92">로케일 i18n (B2B)</text>
+    <text x="787" y="92">fps — 3D 시각화</text>
+  </g>
+</svg>

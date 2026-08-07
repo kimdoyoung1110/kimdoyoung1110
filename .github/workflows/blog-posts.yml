@@ -1,0 +1,24 @@
+name: update latest blog posts
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://v2.velog.io/rss/@kdy9883"
+          max_post_count: 5
+          date_format: "yyyy.mm.dd"
+          template: "- [$title]($url) <sub>$date</sub>$newline"
+          commit_message: "chore: update latest blog posts"

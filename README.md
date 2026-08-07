@@ -17,7 +17,7 @@
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## ✨ Highlights
 
@@ -26,7 +26,9 @@
 - 🛡️ CI가 전무하던 프로덕트에 **typecheck·build·test 게이트, 번들 보안 검증, SEO 구조화** 등 런칭 품질 기준을 0에서 수립
 - 🧑‍💻 인천대 **[앱센터](https://github.com/inu-appcenter)** [memorIN](https://github.com/inu-appcenter/memorIN) **백엔드 시니어** (Spring Boot · PostgreSQL · WebSocket) · 인천대 **인공지능빅데이터센터**에서 RAG · LLM Agent 연구
 
----
+<div align="center"><img src="assets/counter.svg" width="100%" alt="핵심 지표: 커밋 500+ · 레포 5개 · 12로케일 · 60fps"/></div>
+
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 💼 Experience
 
@@ -59,7 +61,7 @@
 - INU-챗봇 자율운영을 위한 Agent 개발 — 학칙·규정 문서 기반 **RAG 파이프라인** 구축, LLM 환각 억제를 위한 답변 검증 시스템 개발 참여
 - 교내 INTIP 플랫폼 프론트엔드 · 챗봇 UI/UX 구현
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 📌 Featured Projects
 
@@ -74,7 +76,7 @@
 
 > 🔎 프로젝트별 상세 성과는 **[포트폴리오 사이트](https://doyoungkim-portfolio.vercel.app/)** 에서 확인하실 수 있어요.
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 🛠️ Tech Stack
 
@@ -101,7 +103,7 @@
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 📊 GitHub Stats
 
@@ -124,7 +126,16 @@
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
+
+## 📝 Latest Posts
+
+> Velog에 기록하는 개발 과정입니다. <sub>(매일 자동 갱신)</sub>
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 📫 Contact
 

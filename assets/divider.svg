@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="26" viewBox="0 0 900 26" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="divFlow" gradientUnits="userSpaceOnUse" x1="-900" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="0.6" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1800 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M0 13 Q 37.5 3 75 13 T 150 13 T 225 13 T 300 13 T 375 13 T 450 13 T 525 13 T 600 13 T 675 13 T 750 13 T 825 13 T 900 13"
+    fill="none" stroke="#1E3A8A" stroke-opacity="0.25" stroke-width="2"/>
+  <path d="M0 13 Q 37.5 3 75 13 T 150 13 T 225 13 T 300 13 T 375 13 T 450 13 T 525 13 T 600 13 T 675 13 T 750 13 T 825 13 T 900 13"
+    fill="none" stroke="url(#divFlow)" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
