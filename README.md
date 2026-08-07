@@ -82,15 +82,22 @@
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,reactquery,zustand,threejs,vitest,figma&theme=dark" alt="Frontend stack"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,threejs,vitest,figma&theme=dark" alt="Frontend stack"/>
 
 **Backend & Mobile**
 
-<img src="https://skillicons.dev/icons?i=java,spring,py,fastapi,expo&theme=dark" alt="Backend and mobile stack"/>
+<img src="https://skillicons.dev/icons?i=java,spring,py,fastapi&theme=dark" alt="Backend and mobile stack"/>
 
 **DB & Infra**
 
 <img src="https://skillicons.dev/icons?i=postgres,supabase,mysql,redis,docker,aws,githubactions,grafana&theme=dark" alt="DB and infra stack"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/TanStack%20Query-1D4ED8?style=flat-square&logo=reactquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Zustand-2563EB?style=flat-square&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/React%20Native%20%C2%B7%20Expo-3B82F6?style=flat-square&logo=expo&logoColor=white"/>
+<img src="https://img.shields.io/badge/Toss%20Payments-38BDF8?style=flat-square&logoColor=white"/>
 
 </div>
 
