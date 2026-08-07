@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-label="highlights ticker">
+  <defs>
+    <linearGradient id="tickerBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1B3A"/>
+      <stop offset="0.5" stop-color="#12275C"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="tickerFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1B3A"/>
+      <stop offset="0.06" stop-color="#0B1B3A" stop-opacity="0"/>
+      <stop offset="0.94" stop-color="#1E3A8A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <clipPath id="tickerClip">
+      <rect x="0" y="0" width="900" height="56" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="56" rx="28" fill="url(#tickerBg)"/>
+
+  <g clip-path="url(#tickerClip)" font-family="'Pretendard','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="17" font-weight="600">
+    <g>
+      <text x="0" y="35" fill="#93C5FD" textLength="1500">⚡ VeggieVerse 1차 런칭 전담&#160;&#160;✦&#160;&#160;500+ Commits&#160;&#160;✦&#160;&#160;Toss Payments 빌링 결제·구독&#160;&#160;✦&#160;&#160;Next.js · React · TypeScript&#160;&#160;✦&#160;&#160;Spring Boot&#160;&#160;✦&#160;&#160;CI · SEO · 보안 런칭 품질&#160;&#160;✦&#160;&#160;RAG · LLM Agent&#160;&#160;✦&#160;&#160;</text>
+      <text x="1500" y="35" fill="#93C5FD" textLength="1500">⚡ VeggieVerse 1차 런칭 전담&#160;&#160;✦&#160;&#160;500+ Commits&#160;&#160;✦&#160;&#160;Toss Payments 빌링 결제·구독&#160;&#160;✦&#160;&#160;Next.js · React · TypeScript&#160;&#160;✦&#160;&#160;Spring Boot&#160;&#160;✦&#160;&#160;CI · SEO · 보안 런칭 품질&#160;&#160;✦&#160;&#160;RAG · LLM Agent&#160;&#160;✦&#160;&#160;</text>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1500 0" dur="24s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <rect width="900" height="56" rx="28" fill="url(#tickerFade)"/>
+</svg>

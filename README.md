@@ -1,15 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:38BDF8,100:34D399&height=210&section=header&text=Kim%20Doyoung&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Engineer%20%C2%B7%20from%20build%20to%20launch&descAlignY=58&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,50:3B82F6,100:38BDF8&height=210&section=header&text=Kim%20Doyoung&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Engineer%20%C2%B7%20from%20build%20to%20launch&descAlignY=58&descSize=20" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&center=true&vCenter=true&width=650&color=6366F1&lines=%EC%8B%A4%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%BB%A4%EB%A8%B8%EC%8A%A4%EB%A5%BC+%EC%B4%88%EA%B8%B0+%EA%B5%AC%EC%B6%95%EB%B6%80%ED%84%B0+1%EC%B0%A8+%EB%9F%B0%EC%B9%AD%EA%B9%8C%EC%A7%80+%EC%A0%84%EB%8B%B4;%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0+%EB%B9%8C%EB%A7%81+%EA%B2%B0%EC%A0%9C%C2%B7%EA%B5%AC%EB%8F%85+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EA%B5%AC%EC%B6%95;5%EA%B0%9C+%EB%A0%88%ED%8F%AC+500%2B+%EC%BB%A4%EB%B0%8B+%E2%80%94+Slunch+Factory;%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4+%EB%82%B4%EC%9D%BC+%EB%8D%94+%EB%82%98%EC%9D%80+%EA%B0%9C%EB%B0%9C%EC%9E%90"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&center=true&vCenter=true&width=650&color=3B82F6&lines=%EC%8B%A4%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%BB%A4%EB%A8%B8%EC%8A%A4%EB%A5%BC+%EC%B4%88%EA%B8%B0+%EA%B5%AC%EC%B6%95%EB%B6%80%ED%84%B0+1%EC%B0%A8+%EB%9F%B0%EC%B9%AD%EA%B9%8C%EC%A7%80+%EC%A0%84%EB%8B%B4;%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0+%EB%B9%8C%EB%A7%81+%EA%B2%B0%EC%A0%9C%C2%B7%EA%B5%AC%EB%8F%85+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EA%B5%AC%EC%B6%95;5%EA%B0%9C+%EB%A0%88%ED%8F%AC+500%2B+%EC%BB%A4%EB%B0%8B+%E2%80%94+Slunch+Factory;%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4+%EB%82%B4%EC%9D%BC+%EB%8D%94+%EB%82%98%EC%9D%80+%EA%B0%9C%EB%B0%9C%EC%9E%90"/>
 
 <br/>
 
 <a href="https://doyoungkim-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/🌐%20Portfolio-doyoungkim--portfolio.vercel.app-6366F1?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/🌐%20Portfolio-doyoungkim--portfolio.vercel.app-2563EB?style=for-the-badge&logoColor=white"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=kimdoyoung1110&color=6366F1&style=for-the-badge&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=kimdoyoung1110&color=2563EB&style=for-the-badge&label=PROFILE+VIEWS"/>
+
+<br/><br/>
+
+<img src="assets/ticker.svg" width="100%" alt="highlights ticker"/>
 
 </div>
 
@@ -96,13 +100,15 @@
 
 <div align="center">
 
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimdoyoung1110&theme=tokyonight" alt="GitHub stats"/>
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kimdoyoung1110&theme=tokyonight" alt="Most commit language"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimdoyoung1110&theme=nord_dark" alt="GitHub stats"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kimdoyoung1110&theme=nord_dark" alt="Most commit language"/>
 
-<img height="185" src="https://streak-stats.demolab.com?user=kimdoyoung1110&theme=tokyonight&hide_border=false&date_format=Y.m.d" alt="GitHub streak"/>
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimdoyoung1110&theme=tokyonight&utcOffset=9" alt="Productive time"/>
+<img height="185" src="https://streak-stats.demolab.com?user=kimdoyoung1110&background=0B1B3A&border=1E3A8A&stroke=3B82F6&ring=3B82F6&fire=38BDF8&currStreakNum=FFFFFF&sideNums=93C5FD&currStreakLabel=93C5FD&sideLabels=60A5FA&dates=64748B&date_format=Y.m.d" alt="GitHub streak"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimdoyoung1110&theme=nord_dark&utcOffset=9" alt="Productive time"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimdoyoung1110&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Contribution graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimdoyoung1110&bg_color=0B1B3A&color=93C5FD&line=3B82F6&point=38BDF8&area=true&area_color=3B82F6&hide_border=true&title_color=60A5FA" width="96%" alt="Contribution graph"/>
+
+<img src="profile-3d-contrib/profile-night-view.svg" width="96%" alt="3D contribution graph"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kimdoyoung1110/kimdoyoung1110/output/github-snake-dark.svg"/>
@@ -125,6 +131,6 @@
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:38BDF8,100:34D399&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,50:3B82F6,100:38BDF8&height=120&section=footer" width="100%"/>
 
 </div>
