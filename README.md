@@ -1,16 +1,17 @@
-<h1 align="center">👋 안녕하세요, 김도영입니다!</h1>
+<div align="center">
 
-<p align="center">
-  실서비스 커머스를 <b>초기 구축부터 1차 런칭까지 전담</b>해 본 <b>프론트엔드 개발자</b>입니다.<br/>
-  결제·구독처럼 돈이 오가는 도메인의 엣지케이스를 설계로 풀고,<br/>
-  CI · 테스트 · SEO · 보안까지 <b>런칭 품질</b>을 직접 책임집니다.
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:38BDF8,100:34D399&height=210&section=header&text=Kim%20Doyoung&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Engineer%20%C2%B7%20from%20build%20to%20launch&descAlignY=58&descSize=20" width="100%"/>
 
-<p align="center">
-  <a href="https://doyoungkim-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐%20Portfolio-doyoungkim--portfolio.vercel.app-6366F1?style=for-the-badge&logoColor=white"/>
-  </a>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&center=true&vCenter=true&width=650&color=6366F1&lines=%EC%8B%A4%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%BB%A4%EB%A8%B8%EC%8A%A4%EB%A5%BC+%EC%B4%88%EA%B8%B0+%EA%B5%AC%EC%B6%95%EB%B6%80%ED%84%B0+1%EC%B0%A8+%EB%9F%B0%EC%B9%AD%EA%B9%8C%EC%A7%80+%EC%A0%84%EB%8B%B4;%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0+%EB%B9%8C%EB%A7%81+%EA%B2%B0%EC%A0%9C%C2%B7%EA%B5%AC%EB%8F%85+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EA%B5%AC%EC%B6%95;5%EA%B0%9C+%EB%A0%88%ED%8F%AC+500%2B+%EC%BB%A4%EB%B0%8B+%E2%80%94+Slunch+Factory;%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4+%EB%82%B4%EC%9D%BC+%EB%8D%94+%EB%82%98%EC%9D%80+%EA%B0%9C%EB%B0%9C%EC%9E%90"/>
+
+<br/>
+
+<a href="https://doyoungkim-portfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐%20Portfolio-doyoungkim--portfolio.vercel.app-6366F1?style=for-the-badge&logoColor=white"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=kimdoyoung1110&color=6366F1&style=for-the-badge&label=PROFILE+VIEWS"/>
+
+</div>
 
 ---
 
@@ -73,66 +74,57 @@
 
 ## 🛠️ Tech Stack
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+<div align="center">
 
-### Backend
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket%20%C2%B7%20STOMP-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+**Frontend**
 
-### DB & Infra
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,reactquery,zustand,threejs,vitest,figma&theme=dark" alt="Frontend stack"/>
 
----
+**Backend & Mobile**
 
-## 🏢 Organizations
+<img src="https://skillicons.dev/icons?i=java,spring,py,fastapi,expo&theme=dark" alt="Backend and mobile stack"/>
 
-| 조직 | 소개 | 역할 |
-|------|------|------|
-| **[Slunch Factory](https://github.com/slunch-factory)** | AI 비건 식단 구독 푸드테크 스타트업 | 자사몰 VeggieVerse 커머스 전담 (프론트엔드 인턴, 5개 레포 500+ 커밋) |
-| **[인천대 앱센터](https://github.com/inu-appcenter)** | 인천대학교 개발 동아리 | memorIN 백엔드 시니어 · 통합 AI 서버 백엔드 |
-| **[CartrAIder](https://github.com/CartrAIder)** | 스마트 AI 카트 프로젝트 | 고객용 모바일 앱 (React Native) |
-| **[Techeer](https://www.techeer.net/)** | 실리콘밸리 개발자 커리어 그룹 | 기술 스터디 · GitGalaxy 3D 시각화 |
+**DB & Infra**
+
+<img src="https://skillicons.dev/icons?i=postgres,supabase,mysql,redis,docker,aws,githubactions,grafana&theme=dark" alt="DB and infra stack"/>
+
+</div>
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kimdoyoung1110&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimdoyoung1110&layout=compact&theme=tokyonight&langs_count=8"/>
-</p>
+<div align="center">
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimdoyoung1110&theme=tokyonight" alt="GitHub stats"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kimdoyoung1110&theme=tokyonight" alt="Most commit language"/>
+
+<img height="185" src="https://streak-stats.demolab.com?user=kimdoyoung1110&theme=tokyonight&hide_border=false&date_format=Y.m.d" alt="GitHub streak"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimdoyoung1110&theme=tokyonight&utcOffset=9" alt="Productive time"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimdoyoung1110&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Contribution graph"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kimdoyoung1110/kimdoyoung1110/output/github-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/kimdoyoung1110/kimdoyoung1110/output/github-snake.svg" width="96%" alt="Contribution snake"/>
+</picture>
+
+</div>
 
 ---
 
 ## 📫 Contact
 
-<p align="center">
-  <a href="https://doyoungkim-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/do-young-kim-2823b53aa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://velog.io/@kdy9883/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
-  <a href="https://blog.naver.com/ehdud9883"><img src="https://img.shields.io/badge/Naver%20Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
-  <a href="mailto:from.dozero@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <i>"오늘보다 내일 더 나은 개발자가 되겠습니다." ✨</i>
-</p>
+<a href="https://doyoungkim-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/do-young-kim-2823b53aa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://velog.io/@kdy9883/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
+<a href="https://blog.naver.com/ehdud9883"><img src="https://img.shields.io/badge/Naver%20Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
+<a href="mailto:from.dozero@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:38BDF8,100:34D399&height=120&section=footer" width="100%"/>
+
+</div>
