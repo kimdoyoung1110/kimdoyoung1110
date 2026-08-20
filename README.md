@@ -132,11 +132,11 @@
 
 > Velog에 기록하는 개발 과정입니다. <sub>(매일 자동 갱신)</sub>
 
-<!-- BLOG-POST-LIST:START -->- [N+1인 줄 알았는데 아니었다 — 영속성 컨텍스트](https://velog.io/@kdy9883/nplus1-persistence-context-first-level-cache) <sub>2026.07.22</sub>
+<!-- BLOG-POST-LIST:START -->- [새벽 3시에 결제까지 눌러보는 봇을 만들었는데 첫날 6초 만에 죽은 슬픈 사연...](https://velog.io/@kdy9883/laywright-nightly-e2e) <sub>2026.08.19</sub>
+- [N+1인 줄 알았는데 아니었다 — 영속성 컨텍스트](https://velog.io/@kdy9883/nplus1-persistence-context-first-level-cache) <sub>2026.07.22</sub>
 - [전화번호 텍스트 하나 때문에, Safari에서만 터지던 Hydration Error 36건 추적기](https://velog.io/@kdy9883/react-hydration-error-safari-format-detection) <sub>2026.07.03</sub>
 - [빈 화면을 없애려다 배운 것들 — 스켈레톤, shimmer, 그리고 React Query](https://velog.io/@kdy9883/skeleton-shimmer-react-query) <sub>2026.06.25</sub>
 - [DevRoad 프론트엔드 리팩토링](https://velog.io/@kdy9883/DevRoad-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81) <sub>2026.04.08</sub>
-- [단순한 버전업이 아니다: 프론트엔드 개발자가 알아야 할 TypeScript 6.0의 큰 그림](https://velog.io/@kdy9883/typescript-6-big-picture) <sub>2026.03.28</sub>
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
