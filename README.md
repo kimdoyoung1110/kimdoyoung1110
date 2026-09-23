@@ -24,6 +24,7 @@
 - 🥗 **[Slunch Factory](https://slunch.co.kr/)** 에서 자사몰 커머스 **VeggieVerse**를 초기 구축부터 1차 런칭까지 프론트엔드 전담 — **5개 레포 500+ 커밋** (2026.05 ~ 현재)
 - 💳 **토스페이먼츠 빌링 기반 결제·구독 시스템** 구축 — 결제 순서 재설계 · 품절 하드 가드 · 타임존 버그 등 엣지케이스를 설계로 해결
 - 🛡️ CI가 전무하던 프로덕트에 **typecheck·build·test 게이트, 번들 보안 검증, SEO 구조화** 등 런칭 품질 기준을 0에서 수립
+- 🗞️ **[TIME Korea](https://korea.time.com/)** 뉴스 플랫폼 프론트엔드 인턴 — 슬런치와 병행하며 모노레포 네트워크 최적화 진행 중 (2026.09 ~)
 - 🧑‍💻 인천대 **[앱센터](https://github.com/inu-appcenter)** [memorIN](https://github.com/inu-appcenter/memorIN) **백엔드 시니어** (Spring Boot · PostgreSQL · WebSocket) · 인천대 **인공지능빅데이터센터**에서 RAG · LLM Agent 연구
 
 <div align="center"><img src="assets/counter.svg" width="100%" alt="핵심 지표: 커밋 500+ · 레포 5개 · 12로케일 · 60fps"/></div>
@@ -34,7 +35,7 @@
 
 ### 🏢 Slunch Factory — 프론트엔드 인턴 <sub>2026.05 ~ 현재</sub>
 
-> AI 기반 비건 식단 구독 푸드테크 스타트업. 자사몰 **[VeggieVerse](https://slunch.co.kr/)** B2C 커머스를 초기 구축부터 1차 런칭까지 전담했습니다. <sub>(사내 레포는 비공개 — 라이브 서비스와 [포트폴리오](https://doyoungkim-portfolio.vercel.app/)에서 확인하실 수 있어요)</sub>
+> AI 기반 비건 식단 구독 푸드테크 스타트업. 자사몰 **[VeggieVerse](https://slunch.co.kr/)** B2C 커머스를 초기 구축부터 1차 런칭까지 전담했고, 지금은 AI 초개인화 식단 서비스 실증 PoC의 AI 플랫폼 프론트엔드를 이어서 개발하고 있습니다. <sub>(사내 레포는 비공개 — 라이브 서비스와 [포트폴리오](https://doyoungkim-portfolio.vercel.app/)에서 확인하실 수 있어요)</sub>
 >
 > `Next.js` `React` `TypeScript` `Tailwind CSS` `TanStack Query` `Supabase` `Toss Payments`
 
@@ -55,6 +56,12 @@
 - 수출 B2B 사이트 — FOB 자동견적(실시간 환율 · 인코텀즈), 컨테이너 적재 시뮬레이션, **12로케일 i18n · 아랍어 RTL**
 - 공장 HACCP 관리자 — 완제품 재고 · LOT · 출고 관리, 현장용 모바일 UI 전면 개편
 - Spring 백엔드 FOB API 작업 — 인증 필터체인 분기(공개/인증/403) 설계와 보안 슬라이스 테스트 작성
+
+### 🗞️ TIME Korea — 프론트엔드 인턴 <sub>2026.09 ~ 현재</sub>
+
+> 글로벌 미디어 TIME의 한국 뉴스 플랫폼 **[korea.time.com](https://korea.time.com/)**. 슬런치 인턴과 병행하고 있습니다.
+
+- 뉴스 플랫폼 프론트엔드 모노레포에서 네트워크 최적화 작업 진행 중
 
 ### 🔬 인천대학교 인공지능빅데이터센터 — 학생연구원 <sub>2026.05 ~ 2027.01(예정)</sub>
 
