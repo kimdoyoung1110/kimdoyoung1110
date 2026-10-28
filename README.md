@@ -139,11 +139,11 @@
 
 > Velog에 기록하는 개발 과정입니다. <sub>(매일 자동 갱신)</sub>
 
-<!-- BLOG-POST-LIST:START -->- [결제창을 닫았을 뿐인데 쿠폰이 사라졌다 — 프론트 1명이 커머스 결제를 지킨 6개월](https://velog.io/@kdy9883/slunch-factory-retrospective) <sub>2026.10.18</sub>
+<!-- BLOG-POST-LIST:START -->- [NVIDIA H100 서버에서 RAG 데이터 파이프라인을 만든 여정](https://velog.io/@kdy9883/notice-rag-pipeline-retrospective) <sub>2026.10.27</sub>
+- [결제창을 닫았을 뿐인데 쿠폰이 사라졌다 — 프론트 1명이 커머스 결제를 지킨 6개월](https://velog.io/@kdy9883/slunch-factory-retrospective) <sub>2026.10.18</sub>
 - [클라우드를 모르는 프론트엔드 개발자가 팀장이 된 6일 — 소프트뱅크 면접 직결형 해커톤 회고](https://velog.io/@kdy9883/softbank-hackathon-retrospective) <sub>2026.10.15</sub>
 - [스마트폰이 곧 카트의 화면 — 창의적종합설계대회 인기상 스마트카트 앱 개발 회고](https://velog.io/@kdy9883/cartraider-retrospective) <sub>2026.10.06</sub>
 - [새벽 3시에 결제까지 눌러보는 봇을 만들었는데 첫날 6초 만에 죽은 슬픈 사연...](https://velog.io/@kdy9883/laywright-nightly-e2e) <sub>2026.08.19</sub>
-- [N+1인 줄 알았는데 아니었다 — 영속성 컨텍스트](https://velog.io/@kdy9883/nplus1-persistence-context-first-level-cache) <sub>2026.07.22</sub>
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
