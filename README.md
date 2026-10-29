@@ -145,8 +145,6 @@
 <img height="185" src="https://streak-stats.demolab.com?user=kimdoyoung1110&background=0B1B3A&border=1E3A8A&stroke=3B82F6&ring=3B82F6&fire=38BDF8&currStreakNum=FFFFFF&sideNums=93C5FD&currStreakLabel=93C5FD&sideLabels=60A5FA&dates=64748B&date_format=Y.m.d" alt="GitHub streak"/>
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimdoyoung1110&theme=nord_dark&utcOffset=9" alt="Productive time"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimdoyoung1110&bg_color=0B1B3A&color=93C5FD&line=3B82F6&point=38BDF8&area=true&area_color=3B82F6&hide_border=true&title_color=60A5FA" width="96%" alt="Contribution graph"/>
-
 <img src="profile-3d-contrib/profile-night-view.svg" width="96%" alt="3D contribution graph"/>
 
 <picture>
