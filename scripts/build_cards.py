@@ -110,6 +110,24 @@ def data_uri(path: Path) -> str:
 
 
 
+# ---------------------------------------------------------------- motion
+MOTION_CSS = """<style>
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.2)}70%{opacity:1;transform:scale(1.15)}100%{opacity:1;transform:scale(1)}}
+@keyframes glow{0%,100%{opacity:1}50%{opacity:.45}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.ln,.chip,.fx{opacity:0;animation:fadeUp .5s ease-out forwards}
+.cell{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .45s ease-out forwards}
+.hot{animation:pop .45s ease-out forwards,glow 2.4s ease-in-out infinite}
+.cursor{animation:blink 1s steps(1) infinite}
+@media (prefers-reduced-motion:reduce){.ln,.chip,.fx,.cell,.hot{animation:none;opacity:1}.cursor{animation:none}}
+</style>"""
+
+
+def delay(sec: float) -> str:
+    return f'style="animation-delay:{sec:.2f}s"'
+
+
 # ---------------------------------------------------------------- left panel
 
 LOGOTYPE = {
@@ -148,11 +166,14 @@ def heatmap(t: dict, theme: str, stats: dict, x0: int, y0: int, weeks: int = 26)
         k = i + pad
         col, row = k // 7, k % 7
         x, y = x0 + col * (cell + gap), y0 + 16 + row * (cell + gap)
-        out.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" fill="{HEAT[theme][int(level)]}"/>')
+        cls = "cell hot" if int(level) >= 4 else "cell"
+        d_ = 1.4 + col * 0.045 + row * 0.01
+        out.append(f'<rect class="{cls}" style="animation-delay:{d_:.2f}s{"," + f"{d_ + 0.45:.2f}s" if cls != "cell" else ""}" '
+                   f'x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" fill="{HEAT[theme][int(level)]}"/>')
         d = dt.date.fromisoformat(day)
         if d.day <= 7 and row == 0 and d.month not in month_seen and col < weeks - 1:
             month_seen.add(d.month)
-            out.append(f'<text x="{x}" y="{y0 + 8}" font-size="10" fill="{t["muted"]}">{d.month}월</text>')
+            out.append(f'<text class="fx" {delay(1.3)} x="{x}" y="{y0 + 8}" font-size="10" fill="{t["muted"]}">{d.month}월</text>')
     return out
 
 
@@ -163,6 +184,10 @@ def left_panel(t: dict, stats: dict) -> list[str]:
     cw, ch = 6.2, 9.5
     y = 92.0
     shadow = "#0e2a5c" if theme == "dark" else "#bfdbfe"
+    out.append('<defs><clipPath id="wipe"><rect x="28" y="80" width="0" height="150">'
+               '<animate attributeName="width" from="0" to="330" begin="0.1s" dur="1.1s" fill="freeze" '
+               'calcMode="spline" keySplines="0.2 0.7 0.2 1" keyTimes="0;1"/></rect></clipPath></defs>')
+    out.append('<g clip-path="url(#wipe)">')
     for word in ("DO", "YOUNG"):
         for r, line in enumerate(LOGOTYPE[word]):
             for c, char in enumerate(line):
@@ -175,14 +200,15 @@ def left_panel(t: dict, stats: dict) -> list[str]:
                     x = 34 + c * cw
                     out.append(f'<rect x="{x:.1f}" y="{y + r * ch:.1f}" width="{cw + 0.3:.1f}" height="{ch + 0.3:.1f}" fill="{t["ascii"]}"/>')
         y += 6 * ch + 12
+    out.append("</g>")
     y = int(y)
-    out.append(f'<text x="34" y="{y + 18}" font-family="{SANS}" font-size="15" fill="{t["muted"]}">'
+    out.append(f'<text class="fx" {delay(1.0)} x="34" y="{y + 18}" font-family="{SANS}" font-size="15" fill="{t["muted"]}">'
                f'<tspan fill="{t["title"]}" font-weight="700">김도영</tspan>  ·  Frontend Engineer · from build to launch</text>')
     hy = y + 60
-    out.append(f'<text x="34" y="{hy}" font-size="12" fill="{t["accent"]}" font-weight="700">$ git log --since="6 months"</text>')
+    out.append(f'<text class="fx" {delay(1.2)} x="34" y="{hy}" font-size="12" fill="{t["accent"]}" font-weight="700">$ git log --since="6 months"</text>')
     out += heatmap(t, theme, stats, 34, hy + 14)
     total = stats.get("contributions", 0)
-    out.append(f'<text x="34" y="{hy + 14 + 16 + 7 * 14 + 18}" font-size="11" fill="{t["muted"]}">'
+    out.append(f'<text class="fx" {delay(2.6)} x="34" y="{hy + 14 + 16 + 7 * 14 + 18}" font-size="11" fill="{t["muted"]}">'
                f'{total:,} contributions in the last year</text>')
     return out
 
@@ -232,11 +258,14 @@ def terminal_card(theme: str, stats: dict) -> str:
         f'viewBox="0 0 900 {height}" font-family="{MONO}" font-size="{fs}" role="img" aria-label="{USER} profile card">',
         f'<rect x="0.5" y="0.5" width="899" height="{height - 1}" rx="12" fill="{t["bg"]}" stroke="{t["border"]}"/>',
     ]
+    out.append(MOTION_CSS)
     out += left_panel(t, stats)
-    out.append(f'<text x="{x_info}" y="40" fill="{t["text"]}" xml:space="preserve">')
     for i, row in enumerate(rows):
         y = 40 + i * lh
         kind = row[0]
+        if kind == "blank":
+            continue
+        out.append(f'<text class="ln" {delay(0.3 + i * 0.09)} x="{x_info}" y="{y}" fill="{t["text"]}" xml:space="preserve">')
         if kind == "title":
             out.append(f'<tspan x="{x_info}" y="{y}" fill="{t["accent"]}" font-weight="700">{esc(row[1])}</tspan>')
         elif kind == "rule":
@@ -261,7 +290,10 @@ def terminal_card(theme: str, stats: dict) -> str:
                 parts.append(f'<tspan fill="{t["key"]}">{esc(k)}</tspan><tspan fill="{t["dots"]}">: </tspan>'
                              f'<tspan fill="{t["text"]}" font-weight="700">{esc(v)}</tspan>')
             out.append(f'<tspan x="{x_info}" y="{y}">' + "".join(parts) + "</tspan>")
-    out.append("</text>")
+        out.append("</text>")
+    last_y = 40 + (len(rows) - 1) * lh
+    out.append(f'<g class="fx" {delay(0.3 + len(rows) * 0.09)}><rect class="cursor" x="{x_info + (len("Contributions (1y): " + contrib) + 1) * 8.43:.0f}" '
+               f'y="{last_y - 13}" width="8" height="16" fill="{t["accent"]}"/></g>')
     out.append(f'<text x="870" y="{height - 16}" text-anchor="end" font-size="11" fill="{t["muted"]}">'
                f'updated {esc(stats.get("updated", ""))} KST</text>')
     out.append("</svg>")
@@ -308,15 +340,27 @@ PROJECTS = [
 ]
 
 
-def project_card(p: dict, theme: str) -> str:
+def project_card(p: dict, theme: str, idx: int = 0) -> str:
     t = THEMES[theme]
+    base = idx * 0.15
     W, H = 440, 220
     logo = data_uri(ASSETS / "logos" / p["logo"])
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" font-family="{SANS}" role="img" aria-label="{esc(p["name"])}">',
-        '<defs><clipPath id="lc"><rect x="22" y="22" width="52" height="52" rx="12"/></clipPath></defs>',
+        MOTION_CSS,
+        '<defs><clipPath id="lc"><rect x="22" y="22" width="52" height="52" rx="12"/></clipPath>'
+        f'<linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="{W}" y2="{H}">'
+        f'<stop offset="0" stop-color="{t["accent"]}" stop-opacity="0"/>'
+        f'<stop offset="0.45" stop-color="{t["accent"]}" stop-opacity="0"/>'
+        f'<stop offset="0.5" stop-color="{t["accent"]}" stop-opacity="0.9"/>'
+        f'<stop offset="0.55" stop-color="{t["accent"]}" stop-opacity="0"/>'
+        f'<stop offset="1" stop-color="{t["accent"]}" stop-opacity="0"/>'
+        f'<animateTransform attributeName="gradientTransform" type="translate" values="-{W} -{H};{W} {H}" '
+        f'dur="5s" begin="{base + 1.5:.2f}s" repeatCount="indefinite"/></linearGradient></defs>',
         f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="14" fill="{t["bg"]}" stroke="{t["border"]}"/>',
+        f'<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="14" fill="none" stroke="url(#sweep)" stroke-width="1.5"/>',
+        f'<g class="fx" style="animation-delay:{base:.2f}s">',
         f'<rect x="22" y="22" width="52" height="52" rx="12" fill="#ffffff"/>',
         f'<image x="22" y="22" width="52" height="52" clip-path="url(#lc)" href="{logo}" xlink:href="{logo}" preserveAspectRatio="xMidYMid slice"/>',
         f'<rect x="22" y="22" width="52" height="52" rx="12" fill="none" stroke="{t["border"]}"/>',
@@ -327,14 +371,16 @@ def project_card(p: dict, theme: str) -> str:
     for line in wrap(p["desc"], 13.5, W - 44)[:2]:
         out.append(f'<text x="22" y="{y}" font-size="13.5" fill="{t["text"]}">{esc(line)}</text>')
         y += 21
+    out.append("</g>")
     # chips
     x, cy = 22, 150
-    for c in p["chips"]:
+    for k, c in enumerate(p["chips"]):
         w = text_width(c, 12) + 20
-        out.append(f'<rect x="{x}" y="{cy}" width="{w:.0f}" height="24" rx="12" fill="{t["chip_bg"]}"/>')
-        out.append(f'<text x="{x + w / 2:.0f}" y="{cy + 16.5}" font-size="12" font-weight="600" text-anchor="middle" fill="{t["chip_text"]}">{esc(c)}</text>')
+        out.append(f'<g class="chip" style="animation-delay:{base + 0.45 + k * 0.15:.2f}s">'
+                   f'<rect x="{x}" y="{cy}" width="{w:.0f}" height="24" rx="12" fill="{t["chip_bg"]}"/>'
+                   f'<text x="{x + w / 2:.0f}" y="{cy + 16.5}" font-size="12" font-weight="600" text-anchor="middle" fill="{t["chip_text"]}">{esc(c)}</text></g>')
         x += w + 8
-    out.append(f'<text x="22" y="200" font-size="12" font-family="{MONO}" fill="{t["muted"]}">{esc(p["tech"])}</text>')
+    out.append(f'<text class="fx" style="animation-delay:{base + 0.95:.2f}s" x="22" y="200" font-size="12" font-family="{MONO}" fill="{t["muted"]}">{esc(p["tech"])}</text>')
     out.append("</svg>")
     return "\n".join(out) + "\n"
 
@@ -344,8 +390,8 @@ def main() -> None:
     (ASSETS / "cards").mkdir(exist_ok=True)
     for theme in THEMES:
         (ASSETS / f"terminal-{theme}.svg").write_text(terminal_card(theme, stats))
-        for p in PROJECTS:
-            (ASSETS / "cards" / f"{p['id']}-{theme}.svg").write_text(project_card(p, theme))
+        for i, p in enumerate(PROJECTS):
+            (ASSETS / "cards" / f"{p['id']}-{theme}.svg").write_text(project_card(p, theme, i % 2))
     print("stats:", stats)
 
 

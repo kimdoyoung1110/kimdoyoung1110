@@ -14,6 +14,8 @@
 
 </div>
 
+<img src="assets/ticker.svg" width="100%" alt="주요 성과 티커"/>
+
 ## 📌 Featured Projects
 
 <p align="center">
@@ -133,11 +135,26 @@
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
-## 📊 GitHub Metrics
+## 📊 GitHub Stats
 
-<p align="center">
-  <img src="metrics.svg" width="100%" alt="GitHub metrics — 활동 · 기여 캘린더 · 언어"/>
-</p>
+<div align="center">
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimdoyoung1110&theme=nord_dark" alt="GitHub stats"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kimdoyoung1110&theme=nord_dark" alt="Most commit language"/>
+
+<img height="185" src="https://streak-stats.demolab.com?user=kimdoyoung1110&background=0B1B3A&border=1E3A8A&stroke=3B82F6&ring=3B82F6&fire=38BDF8&currStreakNum=FFFFFF&sideNums=93C5FD&currStreakLabel=93C5FD&sideLabels=60A5FA&dates=64748B&date_format=Y.m.d" alt="GitHub streak"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimdoyoung1110&theme=nord_dark&utcOffset=9" alt="Productive time"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimdoyoung1110&bg_color=0B1B3A&color=93C5FD&line=3B82F6&point=38BDF8&area=true&area_color=3B82F6&hide_border=true&title_color=60A5FA" width="96%" alt="Contribution graph"/>
+
+<img src="profile-3d-contrib/profile-night-view.svg" width="96%" alt="3D contribution graph"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kimdoyoung1110/kimdoyoung1110/output/github-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/kimdoyoung1110/kimdoyoung1110/output/github-snake.svg" width="96%" alt="Contribution snake"/>
+</picture>
+
+</div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
