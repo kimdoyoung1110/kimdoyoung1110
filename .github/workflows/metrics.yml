@@ -26,9 +26,8 @@ jobs:
           template: classic
           config_timezone: Asia/Seoul
           config_display: large
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, metadata
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_ignored: html, css, jupyter notebook, hcl, dockerfile, shell
+          # 레포·언어 통계는 개인 토큰(METRICS_TOKEN)이 있어야 정확해서 그 전까지는 끔
+          # plugin_languages: yes
