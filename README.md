@@ -1,23 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,50:3B82F6,100:38BDF8&height=210&section=header&text=Kim%20Doyoung&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Engineer%20%C2%B7%20from%20build%20to%20launch&descAlignY=58&descSize=20" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg"/>
+  <img src="assets/terminal-dark.svg" width="100%" alt="김도영 프로필 — Frontend Engineer · TIME Korea"/>
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&center=true&vCenter=true&width=650&color=3B82F6&lines=%EC%BB%A4%EB%A8%B8%EC%8A%A4+%EC%9E%90%EC%82%AC%EB%AA%B0%EC%9D%84+%EC%B4%88%EA%B8%B0+%EA%B5%AC%EC%B6%95%EB%B6%80%ED%84%B0+1%EC%B0%A8+%EB%9F%B0%EC%B9%AD%EA%B9%8C%EC%A7%80+%EC%A0%84%EB%8B%B4;%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0+%EB%B9%8C%EB%A7%81+%EA%B2%B0%EC%A0%9C%C2%B7%EA%B5%AC%EB%8F%85+%EC%8B%9C%EC%8A%A4%ED%85%9C+%EA%B5%AC%EC%B6%95;TIME+Korea+%EB%89%B4%EC%8A%A4+%ED%94%8C%EB%9E%AB%ED%8F%BC+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4;26%EA%B0%9C+%EB%8C%80%ED%95%99+%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD+%EC%97%B0%EC%8A%B5+%E2%80%94+%EA%B4%91%ED%81%B4%EC%8A%A4%ED%83%91;%EC%98%A4%EB%8A%98%EB%B3%B4%EB%8B%A4+%EB%82%B4%EC%9D%BC+%EB%8D%94+%EB%82%98%EC%9D%80+%EA%B0%9C%EB%B0%9C%EC%9E%90"/>
-
-<br/>
-
-<a href="https://doyoungkim-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/🌐%20Portfolio-doyoungkim--portfolio.vercel.app-2563EB?style=for-the-badge&logoColor=white"/>
-</a>
-<img src="https://komarev.com/ghpvc/?username=kimdoyoung1110&color=2563EB&style=for-the-badge&label=PROFILE+VIEWS"/>
-
-<br/><br/>
-
-<img src="assets/ticker.svg" width="100%" alt="highlights ticker"/>
+<a href="https://doyoungkim-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/doyoung-kim-2823b53aa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://velog.io/@kdy9883/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
+<a href="https://syde.kr/showcase/%EA%B4%91%ED%81%B4%EC%8A%A4%ED%83%91"><img src="https://img.shields.io/badge/SYDE-111827?style=for-the-badge&logoColor=white"/></a>
+<a href="mailto:from.dozero@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 </div>
-
-<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## ✨ Highlights
 
@@ -27,7 +22,45 @@
 - 🏆 **[CartrAIder](https://github.com/CartrAIder)** 인천대 창의적종합설계경진대회 **인기상** · **[Unibloom](https://www.unibloom.cloud)** SoftBank Hackathon 2026 **팀장**
 - 🔬 인천대 **[글로벌 앱센터](https://github.com/inu-appcenter)** 에서 학사 AI 챗봇 **RAG 파이프라인** 연구 중
 
-<div align="center"><img src="assets/counter.svg" width="100%" alt="핵심 지표: 커밋 620+ · 대학 UI 26개 · 클라우드 4곳 동시 배포 · 공지 선별 정확도 98.9%"/></div>
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
+
+## 📌 Featured Projects
+
+<p align="center">
+<a href="https://slunch.co.kr/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/veggieverse-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/veggieverse-light.svg"/>
+  <img src="assets/cards/veggieverse-dark.svg" width="49%" alt="VeggieVerse — Slunch Factory"/>
+</picture></a>
+<a href="https://korea.time.com/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/timekorea-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/timekorea-light.svg"/>
+  <img src="assets/cards/timekorea-dark.svg" width="49%" alt="TIME Korea"/>
+</picture></a>
+</p>
+
+<p align="center">
+<a href="https://gcstop.co.kr"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/gcstop-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/gcstop-light.svg"/>
+  <img src="assets/cards/gcstop-dark.svg" width="49%" alt="광클스탑"/>
+</picture></a>
+<a href="https://github.com/CartrAIder"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/cartraider-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/cartraider-light.svg"/>
+  <img src="assets/cards/cartraider-dark.svg" width="49%" alt="CartrAIder"/>
+</picture></a>
+</p>
+
+<p align="center">
+<a href="https://www.unibloom.cloud"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/unibloom-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/unibloom-light.svg"/>
+  <img src="assets/cards/unibloom-dark.svg" width="49%" alt="Unibloom"/>
+</picture></a>
+</p>
+
+<p align="center"><sub>카드를 누르면 서비스나 레포로 이동해요 · 상세 성과는 <a href="https://doyoungkim-portfolio.vercel.app/">포트폴리오</a>에서</sub></p>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
@@ -38,6 +71,10 @@
 > 글로벌 미디어 TIME의 한국 뉴스 플랫폼 **[korea.time.com](https://korea.time.com/)**. 프론트엔드에서 성능·SEO, CI 자동화, 디자인 시안 정합과 기능 개발을 맡고 있습니다. PR 56개 · 운영 릴리스 22회를 직접 진행했어요. <sub>(사내 레포는 비공개)</sub>
 >
 > `Next.js` `React` `Vercel` `GitHub Actions` `Lighthouse CI` `GA4`
+
+
+<details>
+<summary><b>주요 작업 펼쳐보기</b></summary>
 
 **성능 · SEO**
 - 서버 함수가 미국 동부(iad1)에서 돌며 서울 API를 부를 때마다 태평양을 두 번 건너던 구조를 발견, **서울(icn1) 리전으로 이전** · 이미지 AVIF 활성화
@@ -55,11 +92,17 @@
 - TIME 본사 서체(Haffner TIME Display · ITC Franklin Gothic · Duplicate Ionic)를 영문 서브셋 웹폰트(14~23KB)로 자체 호스팅, 로고 비율 · 태블릿 헤더 겹침 등 시안 정합
 - 모든 작업을 배경 → 대안 비교 → 결정 근거 → 실측 결과 순서의 work-log 18편으로 기록
 
+</details>
+
 ### <img src="assets/logos/slunch.png" width="26" align="center"/> Slunch Factory — 프론트엔드 인턴 <sub>2026.05 ~ 2026.10</sub>
 
 > AI 기반 비건 식단 구독 푸드테크 스타트업. 자사몰 **[VeggieVerse](https://slunch.co.kr/)** B2C 커머스를 초기 구축부터 1차 런칭·운영까지 프론트엔드를 전담했고, 이후 현대건설 디에이치 방배 AI 초개인화 식단 서비스 실증 PoC의 AI 플랫폼 프론트엔드를 개발했습니다. <sub>(사내 레포는 비공개 — 라이브 서비스와 [포트폴리오](https://doyoungkim-portfolio.vercel.app/)에서 확인하실 수 있어요)</sub>
 >
 > `Next.js` `React` `TypeScript` `Tailwind CSS` `TanStack Query` `Supabase` `Toss Payments` `Playwright`
+
+
+<details>
+<summary><b>주요 작업 펼쳐보기</b></summary>
 
 **결제 · 구독 시스템**
 - 토스페이먼츠 빌링키 기반 정기결제·결제수단 관리 구축 — 복수 카드 등록 · 기본 카드 지정 · 등록 카드 바로결제
@@ -81,6 +124,8 @@
 - 운영 관리자 화면 초기 구축부터 전담 — 상품 CRUD, 상세페이지 편집기 + Figma export HTML 파이프라인, 재고·출고(fulfillment) 관리
 - 공장 HACCP 관리자 — 완제품 재고 · LOT · 출고 관리, 현장용 모바일 UI 전면 개편
 
+</details>
+
 ### <img src="assets/logos/appcenter.png" width="26" align="center"/> 인천대학교 글로벌 앱센터 — LLM 연구 <sub>2026.06 ~ 현재</sub>
 
 - 학사 AI 챗봇 **'챗불이'** 의 공지사항 **RAG 데이터 파이프라인** 설계·구축 — NVIDIA H100 4장 공유 서버에서 학생 답변 지연을 만들지 않도록 GPU 부하 최소화 중심으로 설계
@@ -90,99 +135,19 @@
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
-## 📌 Featured Projects
-
-<table>
-  <tr>
-    <th width="72">로고</th>
-    <th>프로젝트</th>
-    <th>설명</th>
-    <th>기술</th>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://slunch.co.kr/"><img src="assets/logos/slunch.png" width="52" alt="Slunch Factory"/></a></td>
-    <td><b>Slunch Factory<br/>VeggieVerse</b><br/><sub><a href="https://slunch.co.kr/">Live</a> · 2026.05 ~ 10</sub></td>
-    <td>비건 식단 구독 자사몰(B2C 커머스). 결제·구독·마이페이지부터 관리자·공장 HACCP 화면까지 프론트엔드 전담, <b>커밋 620+ · PR 245</b>로 1차 런칭 <sub>(사내 비공개 레포)</sub></td>
-    <td>Next.js · TypeScript · TanStack Query · Toss Payments · Playwright</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://korea.time.com/"><img src="assets/logos/timekorea.png" width="52" alt="TIME Korea"/></a></td>
-    <td><b>TIME Korea</b><br/><sub><a href="https://korea.time.com/">Live</a> · 2026.09 ~</sub></td>
-    <td>글로벌 미디어 TIME의 한국 뉴스 플랫폼. 서버 리전 서울 이전, 실사용자 <b>LCP 1.4초</b> · 홈 <b>SEO 92 → 100</b>, 무료 Actions 예산 안의 CI 경량화 · 야간 Lighthouse 측정, 본사 서체 · 시안 정합. <b>PR 56개 · 운영 릴리스 22회</b>, 광고 시스템 제작 중 <sub>(사내 비공개 레포)</sub></td>
-    <td>Next.js · Vercel · GitHub Actions · Lighthouse CI · GA4</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://gcstop.co.kr"><img src="assets/logos/gcstop.jpg" width="52" alt="광클스탑"/></a></td>
-    <td><b>광클스탑</b><br/><sub><a href="https://gcstop.co.kr">Live</a> · <a href="https://github.com/GcStop">GcStop</a> · 2026.10 ~</sub></td>
-    <td>전국 <b>26개 대학</b> 실제 화면을 재현한 수강신청 연습 서비스. 정각 타이밍 연습 · 대학 서버시간 측정 · 2분마다 열리는 <b>실시간 선착순 배틀</b>(잔여석 · 랭킹 SSE 실시간 갱신). <b>프론트엔드</b> 담당으로 사이드프로젝트로 계속 운영 중</td>
-    <td>React 19 · TanStack Query · Tailwind · SSE</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/CartrAIder"><img src="assets/logos/cartraider.png" width="52" alt="CartrAIder"/></a></td>
-    <td><b>카트라이더<br/>CartrAIder</b><br/><sub><a href="https://github.com/CartrAIder">GitHub</a> · 2026</sub></td>
-    <td>기존 카트에 붙이고 스마트폰을 화면으로 쓰는 스마트 AI 카트. <b>창의적종합설계경진대회 인기상</b>. 고객·관리자 화면 23개 프론트엔드 전담 — SSE 실시간 장바구니, 토스 결제 · 출구 게이트 QR, 노약자 모드, 상품 이미지 전송량 <b>68MB → 1.4MB</b></td>
-    <td>React Native · Expo · TypeScript · SSE · Toss Payments</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://www.unibloom.cloud"><img src="assets/logos/unibloom.png" width="52" alt="Unibloom"/></a></td>
-    <td><b>Unibloom</b><br/><sub><a href="https://www.unibloom.cloud">Live</a> · <a href="https://github.com/Softbank-Hackathon-2026-Team-Daisy">GitHub</a> · 2026.10</sub></td>
-    <td>SoftBank Hackathon 2026 Team Daisy. 환경만 고르면 AI가 Terraform을 생성·검증해 같은 앱을 <b>온프레미스 · AWS · Azure · GCP</b>에 동시 배포. <b>6인 팀 팀장 · 웹 대시보드</b> 담당 — Figma 디자인 시스템부터 실서버 연동 · SSE 실시간 진행까지, 6일간 PR 100+ 머지</td>
-    <td>React 19 · Vite · TypeScript · SSE · Terraform · Jenkins</td>
-  </tr>
-</table>
-
-> 🔎 프로젝트별 상세 성과는 **[포트폴리오 사이트](https://doyoungkim-portfolio.vercel.app/)** 에서 확인하실 수 있어요.
-
-<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
-
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-**Frontend & Mobile**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,threejs,vitest,figma&theme=dark" alt="Frontend stack"/>
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=java,spring,py,fastapi&theme=dark" alt="Backend stack"/>
-
-**DB & Infra**
-
-<img src="https://skillicons.dev/icons?i=postgres,supabase,mysql,redis,docker,aws,githubactions,grafana&theme=dark" alt="DB and infra stack"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/TanStack%20Query-1D4ED8?style=flat-square&logo=reactquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zustand-2563EB?style=flat-square&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/React%20Native%20%C2%B7%20Expo-3B82F6?style=flat-square&logo=expo&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright-1D4ED8?style=flat-square&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/Toss%20Payments-38BDF8?style=flat-square&logoColor=white"/>
-
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,threejs,vitest,figma,java,spring,py,postgres,supabase,redis,docker,aws,githubactions&perline=8&theme=dark" alt="Tech stack"/>
+</p>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
-## 📊 GitHub Stats
+## 📊 GitHub Metrics
 
-<div align="center">
-
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimdoyoung1110&theme=nord_dark" alt="GitHub stats"/>
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kimdoyoung1110&theme=nord_dark" alt="Most commit language"/>
-
-<img height="185" src="https://streak-stats.demolab.com?user=kimdoyoung1110&background=0B1B3A&border=1E3A8A&stroke=3B82F6&ring=3B82F6&fire=38BDF8&currStreakNum=FFFFFF&sideNums=93C5FD&currStreakLabel=93C5FD&sideLabels=60A5FA&dates=64748B&date_format=Y.m.d" alt="GitHub streak"/>
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimdoyoung1110&theme=nord_dark&utcOffset=9" alt="Productive time"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimdoyoung1110&bg_color=0B1B3A&color=93C5FD&line=3B82F6&point=38BDF8&area=true&area_color=3B82F6&hide_border=true&title_color=60A5FA" width="96%" alt="Contribution graph"/>
-
-<img src="profile-3d-contrib/profile-night-view.svg" width="96%" alt="3D contribution graph"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kimdoyoung1110/kimdoyoung1110/output/github-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/kimdoyoung1110/kimdoyoung1110/output/github-snake.svg" width="96%" alt="Contribution snake"/>
-</picture>
-
-</div>
+<p align="center">
+  <img src="metrics.svg" width="100%" alt="GitHub metrics — 활동 · 기여 캘린더 · 언어"/>
+</p>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
@@ -190,27 +155,12 @@
 
 > Velog에 기록하는 개발 과정입니다. <sub>(매일 자동 갱신)</sub>
 
-<!-- BLOG-POST-LIST:START -->- [NVIDIA H100 서버에서 RAG 데이터 파이프라인을 만든 여정](https://velog.io/@kdy9883/notice-rag-pipeline-retrospective) <sub>2026.10.27</sub>
+<!-- BLOG-POST-LIST:START -->
+- [NVIDIA H100 서버에서 RAG 데이터 파이프라인을 만든 여정](https://velog.io/@kdy9883/notice-rag-pipeline-retrospective) <sub>2026.10.27</sub>
 - [결제창을 닫았을 뿐인데 쿠폰이 사라졌다 — 프론트 1명이 커머스 결제를 지킨 6개월](https://velog.io/@kdy9883/slunch-factory-retrospective) <sub>2026.10.18</sub>
 - [클라우드를 모르는 프론트엔드 개발자가 팀장이 된 6일 — 소프트뱅크 면접 직결형 해커톤 회고](https://velog.io/@kdy9883/softbank-hackathon-retrospective) <sub>2026.10.15</sub>
 - [스마트폰이 곧 카트의 화면 — 창의적종합설계대회 인기상 스마트카트 앱 개발 회고](https://velog.io/@kdy9883/cartraider-retrospective) <sub>2026.10.06</sub>
 - [새벽 3시에 결제까지 눌러보는 봇을 만들었는데 첫날 6초 만에 죽은 슬픈 사연...](https://velog.io/@kdy9883/laywright-nightly-e2e) <sub>2026.08.19</sub>
 <!-- BLOG-POST-LIST:END -->
 
-<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
-
-## 📫 Contact
-
-<div align="center">
-
-<a href="https://doyoungkim-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/doyoung-kim-2823b53aa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://velog.io/@kdy9883/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
-<a href="https://blog.naver.com/ehdud9883"><img src="https://img.shields.io/badge/Naver%20Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
-<a href="mailto:from.dozero@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,50:3B82F6,100:38BDF8&height=120&section=footer" width="100%"/>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,50:3B82F6,100:38BDF8&height=110&section=footer" width="100%"/>

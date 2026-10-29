@@ -1,0 +1,30 @@
+name: update metrics
+
+on:
+  schedule:
+    - cron: "43 15 * * *" # 매일 00:43 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # 개인 토큰(METRICS_TOKEN)이 있으면 그걸, 없으면 기본 토큰으로 시도
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          user: kimdoyoung1110
+          filename: metrics.svg
+          template: classic
+          config_timezone: Asia/Seoul
+          config_display: large
+          base: header, activity, community, repositories, metadata
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_ignored: html, css, jupyter notebook, hcl, dockerfile, shell
