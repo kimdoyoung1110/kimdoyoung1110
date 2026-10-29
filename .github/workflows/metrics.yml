@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "43 15 * * *" # 매일 00:43 KST
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/metrics.yml
 
 permissions:
   contents: write
