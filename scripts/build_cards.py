@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """프로필 README용 SVG 카드 생성기.
 
-- assets/terminal-dark.svg / terminal-light.svg : neofetch 스타일 소개 카드
+- assets/terminal-dark.svg / terminal-light.svg : 이름 로고 · 기여 잔디 + neofetch 스타일 소개 카드
 - assets/cards/<id>-dark.svg / <id>-light.svg     : 프로젝트 카드
 
 GitHub 통계(레포 · 팔로워 · 스타 · 최근 1년 기여)는 실행할 때마다 새로 가져오고,
@@ -66,6 +66,9 @@ def fetch_stats() -> dict:
         m = re.search(r"([\d,]+)\s+contributions?\s+in the last year", re.sub(r"\s+", " ", page))
         if m:
             stats["contributions"] = int(m.group(1).replace(",", ""))
+        days = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"[^>]*?data-level="(\d)"', page)
+        if days:
+            stats["calendar"] = sorted([d, int(l)] for d, l in days)
     except Exception as e:  # noqa: BLE001
         print("contributions failed:", e)
     stats["updated"] = dt.datetime.now(KST).strftime("%Y.%m.%d")
@@ -106,12 +109,87 @@ def data_uri(path: Path) -> str:
     return f"data:{mime};base64,{base64.b64encode(path.read_bytes()).decode()}"
 
 
+
+# ---------------------------------------------------------------- left panel
+
+LOGOTYPE = {
+    "DO": [
+        "██████╗  ██████╗ ",
+        "██╔══██╗██╔═══██╗",
+        "██║  ██║██║   ██║",
+        "██║  ██║██║   ██║",
+        "██████╔╝╚██████╔╝",
+        "╚═════╝  ╚═════╝ ",
+    ],
+    "YOUNG": [
+        "██╗   ██╗ ██████╗ ██╗   ██╗███╗   ██╗ ██████╗ ",
+        "╚██╗ ██╔╝██╔═══██╗██║   ██║████╗  ██║██╔════╝ ",
+        " ╚████╔╝ ██║   ██║██║   ██║██╔██╗ ██║██║  ███╗",
+        "  ╚██╔╝  ██║   ██║██║   ██║██║╚██╗██║██║   ██║",
+        "   ██║   ╚██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝",
+        "   ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ",
+    ],
+}
+HEAT = {
+    "dark": ["#161b22", "#0e2a5c", "#1d4ed8", "#3b82f6", "#93c5fd"],
+    "light": ["#ebeef2", "#bfdbfe", "#60a5fa", "#2563eb", "#1e3a8a"],
+}
+
+
+def heatmap(t: dict, theme: str, stats: dict, x0: int, y0: int, weeks: int = 26) -> list[str]:
+    cal = stats.get("calendar", [])[-weeks * 7:]
+    if not cal:
+        return []
+    cell, gap = 11, 3
+    first = dt.date.fromisoformat(cal[0][0])
+    pad = (first.weekday() + 1) % 7  # 일요일 시작
+    out, month_seen = [], set()
+    for i, (day, level) in enumerate(cal):
+        k = i + pad
+        col, row = k // 7, k % 7
+        x, y = x0 + col * (cell + gap), y0 + 16 + row * (cell + gap)
+        out.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" fill="{HEAT[theme][int(level)]}"/>')
+        d = dt.date.fromisoformat(day)
+        if d.day <= 7 and row == 0 and d.month not in month_seen and col < weeks - 1:
+            month_seen.add(d.month)
+            out.append(f'<text x="{x}" y="{y0 + 8}" font-size="10" fill="{t["muted"]}">{d.month}월</text>')
+    return out
+
+
+def left_panel(t: dict, stats: dict) -> list[str]:
+    theme = "dark" if t is THEMES["dark"] else "light"
+    out: list[str] = []
+    # logo: 이름 로고타입(픽셀 블록) + 최근 26주 기여 잔디
+    cw, ch = 6.2, 9.5
+    y = 92.0
+    shadow = "#0e2a5c" if theme == "dark" else "#bfdbfe"
+    for word in ("DO", "YOUNG"):
+        for r, line in enumerate(LOGOTYPE[word]):
+            for c, char in enumerate(line):
+                if char == "█":
+                    x = 34 + c * cw
+                    out.append(f'<rect x="{x + 2:.1f}" y="{y + r * ch + 2:.1f}" width="{cw:.1f}" height="{ch:.1f}" fill="{shadow}"/>')
+        for r, line in enumerate(LOGOTYPE[word]):
+            for c, char in enumerate(line):
+                if char == "█":
+                    x = 34 + c * cw
+                    out.append(f'<rect x="{x:.1f}" y="{y + r * ch:.1f}" width="{cw + 0.3:.1f}" height="{ch + 0.3:.1f}" fill="{t["ascii"]}"/>')
+        y += 6 * ch + 12
+    y = int(y)
+    out.append(f'<text x="34" y="{y + 18}" font-family="{SANS}" font-size="15" fill="{t["muted"]}">'
+               f'<tspan fill="{t["title"]}" font-weight="700">김도영</tspan>  ·  Frontend Engineer · from build to launch</text>')
+    hy = y + 60
+    out.append(f'<text x="34" y="{hy}" font-size="12" fill="{t["accent"]}" font-weight="700">$ git log --since="6 months"</text>')
+    out += heatmap(t, theme, stats, 34, hy + 14)
+    total = stats.get("contributions", 0)
+    out.append(f'<text x="34" y="{hy + 14 + 16 + 7 * 14 + 18}" font-size="11" fill="{t["muted"]}">'
+               f'{total:,} contributions in the last year</text>')
+    return out
+
 # ---------------------------------------------------------------- terminal card
 def terminal_card(theme: str, stats: dict) -> str:
     t = THEMES[theme]
-    ascii_art = json.loads((ASSETS / "ascii.json").read_text())
     fs, lh = 14, 20  # 정보 영역 글자 크기 · 줄 간격
-    afs, alh = 9, 10  # ASCII 아트 글자 크기 · 줄 간격
     x_info, key_w = 420, 14  # 정보 시작 x, key 열 폭(문자 수)
 
     def kv(key: str, value: str) -> tuple:
@@ -148,17 +226,13 @@ def terminal_card(theme: str, stats: dict) -> str:
         ("stats", [("Contributions (1y)", contrib)]),
     ]
 
-    height = max(40 + len(ascii_art) * alh, 40 + len(rows) * lh) + 30
+    height = 40 + len(rows) * lh + 30
     out = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" viewBox="0 0 900 {height}" '
-        f'font-family="{MONO}" font-size="{fs}" role="img" aria-label="{USER} profile card">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="{height}" '
+        f'viewBox="0 0 900 {height}" font-family="{MONO}" font-size="{fs}" role="img" aria-label="{USER} profile card">',
         f'<rect x="0.5" y="0.5" width="899" height="{height - 1}" rx="12" fill="{t["bg"]}" stroke="{t["border"]}"/>',
-        f'<text x="24" y="34" font-size="{afs}" fill="{t["ascii"]}" xml:space="preserve">',
     ]
-    for i, line in enumerate(ascii_art):
-        out.append(f'<tspan x="24" y="{34 + i * alh}">{esc(line)}</tspan>')
-    out.append("</text>")
-
+    out += left_panel(t, stats)
     out.append(f'<text x="{x_info}" y="40" fill="{t["text"]}" xml:space="preserve">')
     for i, row in enumerate(rows):
         y = 40 + i * lh

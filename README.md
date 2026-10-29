@@ -14,16 +14,6 @@
 
 </div>
 
-## ✨ Highlights
-
-- 🥗 **[Slunch Factory](https://slunch.co.kr/)** 에서 자사몰 커머스 **VeggieVerse**를 초기 구축부터 1차 런칭·운영까지 프론트엔드 전담 — **커밋 620+ · PR 245** (2026.05 ~ 2026.10)
-- 💳 **토스페이먼츠 빌링 기반 결제·구독 시스템** 구축 — 서버 권위 금액 모델, 결제 끊김 8가지 상황을 보상 처리·멱등성으로 방어
-- 🗞️ **[TIME Korea](https://korea.time.com/)** 뉴스 플랫폼 프론트엔드 인턴 — 서버 리전 서울 이전 · 실사용자 **LCP 1.4초** · 홈 SEO **92 → 100** · 야간 Lighthouse CI, PR 56개 (2026.09 ~ 현재)
-- 🏆 **[CartrAIder](https://github.com/CartrAIder)** 인천대 창의적종합설계경진대회 **인기상** · **[Unibloom](https://www.unibloom.cloud)** SoftBank Hackathon 2026 **팀장**
-- 🔬 인천대 **[글로벌 앱센터](https://github.com/inu-appcenter)** 에서 학사 AI 챗봇 **RAG 파이프라인** 연구 중
-
-<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
-
 ## 📌 Featured Projects
 
 <p align="center">
