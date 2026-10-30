@@ -340,7 +340,6 @@
 </g>
 <text class="fx" style="animation-delay:1.00s" x="34" y="248" font-family="-apple-system,BlinkMacSystemFont,'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif" font-size="15" fill="#7d8590"><tspan fill="#ffffff" font-weight="700">김도영</tspan>  ·  Frontend Engineer · from build to launch</text>
 <text class="fx" style="animation-delay:1.20s" x="34" y="290" font-size="12" fill="#58a6ff" font-weight="700">$ git log --since="6 months"</text>
-<rect class="cell" style="animation-delay:1.45s" x="34" y="390" width="11" height="11" rx="2.5" fill="#161b22"/>
 <rect class="cell" style="animation-delay:1.46s" x="34" y="404" width="11" height="11" rx="2.5" fill="#161b22"/>
 <rect class="cell" style="animation-delay:1.44s" x="48" y="320" width="11" height="11" rx="2.5" fill="#161b22"/>
 <text class="fx" style="animation-delay:1.30s" x="48" y="312" font-size="10" fill="#7d8590">5월</text>
@@ -528,6 +527,7 @@
 <rect class="cell" style="animation-delay:2.59s" x="398" y="348" width="11" height="11" rx="2.5" fill="#161b22"/>
 <rect class="cell" style="animation-delay:2.60s" x="398" y="362" width="11" height="11" rx="2.5" fill="#161b22"/>
 <rect class="cell" style="animation-delay:2.61s" x="398" y="376" width="11" height="11" rx="2.5" fill="#1d4ed8"/>
+<rect class="cell" style="animation-delay:2.62s" x="398" y="390" width="11" height="11" rx="2.5" fill="#161b22"/>
 <text class="fx" style="animation-delay:2.60s" x="34" y="436" font-size="11" fill="#7d8590">1,076 contributions in the last year</text>
 <text class="ln" style="animation-delay:0.30s" x="420" y="40" fill="#e6edf3" xml:space="preserve">
 <tspan x="420" y="40" fill="#58a6ff" font-weight="700">kimdoyoung1110@github</tspan>
@@ -593,5 +593,5 @@
 <tspan x="420" y="500"><tspan fill="#79c0ff">Contributions (1y)</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">1,076</tspan></tspan>
 </text>
 <g class="fx" style="animation-delay:2.46s"><rect class="cursor" x="639" y="487" width="8" height="16" fill="#58a6ff"/></g>
-<text x="870" y="534" text-anchor="end" font-size="11" fill="#7d8590">updated 2026.10.30 KST</text>
+<text x="870" y="534" text-anchor="end" font-size="11" fill="#7d8590">updated 2026.10.31 KST</text>
 </svg>
