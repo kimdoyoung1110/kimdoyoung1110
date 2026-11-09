@@ -229,6 +229,7 @@ def terminal_card(theme: str, stats: dict) -> str:
         ("title", f"{USER}@github"),
         ("rule",),
         kv("Role", "Frontend Engineer · 풀스택 지향"),
+        kv("Award", "🏆 SoftBank Hackathon 2026 본선 우수상"),
         kv("Now", "TIME Korea · Frontend Intern"),
         kv("Prev", "Slunch Factory · Frontend (2026.05–10)"),
         kv("Research", "인천대 글로벌 앱센터 · LLM / RAG"),
@@ -303,11 +304,11 @@ def terminal_card(theme: str, stats: dict) -> str:
 # ---------------------------------------------------------------- project cards
 PROJECTS = [
     {
-        "id": "veggieverse", "logo": "slunch.png", "name": "VeggieVerse",
-        "org": "Slunch Factory", "meta": "2026.05 – 10 · Frontend 전담",
-        "desc": "비건 식단 구독 자사몰 B2C 커머스를 초기 구축부터 1차 런칭·운영까지 프론트엔드 혼자 맡았어요.",
-        "chips": ["커밋 620+", "PR 245", "결제 끊김 8케이스 방어"],
-        "tech": "Next.js · TypeScript · Toss Payments · Playwright",
+        "id": "echoport", "logo": "echoport.png", "name": "EchoPort",
+        "org": "SoftBank Hackathon 본선", "meta": "2026.11 · 팀장 · Web · Infra",
+        "desc": "재난이 나면 서비스를 다른 클라우드로 무중단 이전하는 멀티 클라우드 BCDR 플랫폼. 웹 콘솔을 혼자 만들었어요.",
+        "chips": ["🏆 우수상", "3클라우드 무중단 이전", "DB 누락 0"],
+        "tech": "React 19 · TanStack Query · Tailwind v4 · OpenAPI",
     },
     {
         "id": "timekorea", "logo": "timekorea.png", "name": "TIME Korea",
@@ -315,6 +316,13 @@ PROJECTS = [
         "desc": "글로벌 미디어 TIME의 한국 뉴스 플랫폼. 성능·SEO, CI 자동화, 본사 서체·시안 정합을 맡고 있어요.",
         "chips": ["실사용자 LCP 1.4s", "SEO 92 → 100", "PR 56"],
         "tech": "Next.js · Vercel · GitHub Actions · Lighthouse CI",
+    },
+    {
+        "id": "veggieverse", "logo": "slunch.png", "name": "VeggieVerse",
+        "org": "Slunch Factory", "meta": "2026.05 – 10 · Frontend 전담",
+        "desc": "비건 식단 구독 자사몰 B2C 커머스를 초기 구축부터 1차 런칭·운영까지 프론트엔드 혼자 맡았어요.",
+        "chips": ["커밋 620+", "PR 245", "결제 끊김 8케이스 방어"],
+        "tech": "Next.js · TypeScript · Toss Payments · Playwright",
     },
     {
         "id": "gcstop", "logo": "gcstop.jpg", "name": "광클스탑",
@@ -329,13 +337,6 @@ PROJECTS = [
         "desc": "기존 카트에 붙이고 스마트폰을 화면으로 쓰는 스마트 AI 카트. 고객·관리자 앱을 혼자 만들었어요.",
         "chips": ["🏆 인기상", "화면 23개", "이미지 68MB → 1.4MB"],
         "tech": "React Native · Expo · TypeScript · SSE",
-    },
-    {
-        "id": "echoport", "logo": "echoport.png", "name": "EchoPort",
-        "org": "SoftBank Hackathon 2026 본선", "meta": "2026.11 · 팀장 · Web · 발표",
-        "desc": "재난이 나면 서비스를 다른 클라우드로 무중단 이전하는 멀티 클라우드 BCDR 플랫폼. 웹 콘솔을 혼자 만들었어요.",
-        "chips": ["3클라우드 무중단 이전", "DB 누락 0", "AI 수정 · 사람 승인"],
-        "tech": "React 19 · TanStack Query · Tailwind v4 · OpenAPI",
     },
     {
         "id": "unibloom", "logo": "unibloom.png", "name": "Unibloom",

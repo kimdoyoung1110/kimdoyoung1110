@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="550" viewBox="0 0 900 550" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','D2Coding',monospace" font-size="14" role="img" aria-label="kimdoyoung1110 profile card">
-<rect x="0.5" y="0.5" width="899" height="549" rx="12" fill="#0d1117" stroke="#30363d"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="570" viewBox="0 0 900 570" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','D2Coding',monospace" font-size="14" role="img" aria-label="kimdoyoung1110 profile card">
+<rect x="0.5" y="0.5" width="899" height="569" rx="12" fill="#0d1117" stroke="#30363d"/>
 <style>
 @keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 @keyframes pop{0%{opacity:0;transform:scale(.2)}70%{opacity:1;transform:scale(1.15)}100%{opacity:1;transform:scale(1)}}
@@ -538,59 +538,62 @@
 <tspan x="420" y="80" fill="#79c0ff">Role</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#e6edf3">Frontend Engineer · 풀스택 지향</tspan>
 </text>
 <text class="ln" style="animation-delay:0.57s" x="420" y="100" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="100" fill="#79c0ff">Now</tspan><tspan fill="#30363d"> ......... </tspan><tspan fill="#e6edf3">TIME Korea · Frontend Intern</tspan>
+<tspan x="420" y="100" fill="#79c0ff">Award</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#e6edf3">🏆 SoftBank Hackathon 2026 본선 우수상</tspan>
 </text>
 <text class="ln" style="animation-delay:0.66s" x="420" y="120" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="120" fill="#79c0ff">Prev</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#e6edf3">Slunch Factory · Frontend (2026.05–10)</tspan>
+<tspan x="420" y="120" fill="#79c0ff">Now</tspan><tspan fill="#30363d"> ......... </tspan><tspan fill="#e6edf3">TIME Korea · Frontend Intern</tspan>
 </text>
 <text class="ln" style="animation-delay:0.75s" x="420" y="140" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="140" fill="#79c0ff">Research</tspan><tspan fill="#30363d"> .... </tspan><tspan fill="#e6edf3">인천대 글로벌 앱센터 · LLM / RAG</tspan>
+<tspan x="420" y="140" fill="#79c0ff">Prev</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#e6edf3">Slunch Factory · Frontend (2026.05–10)</tspan>
 </text>
 <text class="ln" style="animation-delay:0.84s" x="420" y="160" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="160" fill="#79c0ff">Education</tspan><tspan fill="#30363d"> ... </tspan><tspan fill="#e6edf3">인천대학교 컴퓨터공학부 (2029.02)</tspan>
+<tspan x="420" y="160" fill="#79c0ff">Research</tspan><tspan fill="#30363d"> .... </tspan><tspan fill="#e6edf3">인천대 글로벌 앱센터 · LLM / RAG</tspan>
 </text>
 <text class="ln" style="animation-delay:0.93s" x="420" y="180" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="180" fill="#79c0ff">Shipped</tspan><tspan fill="#30363d"> ..... </tspan><tspan fill="#e6edf3">VeggieVerse · 광클스탑</tspan>
+<tspan x="420" y="180" fill="#79c0ff">Education</tspan><tspan fill="#30363d"> ... </tspan><tspan fill="#e6edf3">인천대학교 컴퓨터공학부 (2029.02)</tspan>
 </text>
 <text class="ln" style="animation-delay:1.02s" x="420" y="200" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="200" fill="#e6edf3">              CartrAIder · Unibloom · EchoPort</tspan>
+<tspan x="420" y="200" fill="#79c0ff">Shipped</tspan><tspan fill="#30363d"> ..... </tspan><tspan fill="#e6edf3">VeggieVerse · 광클스탑</tspan>
 </text>
-<text class="ln" style="animation-delay:1.20s" x="420" y="240" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="240" fill="#58a6ff" font-weight="700">- Stack </tspan><tspan fill="#30363d">——————————————————————</tspan>
+<text class="ln" style="animation-delay:1.11s" x="420" y="220" fill="#e6edf3" xml:space="preserve">
+<tspan x="420" y="220" fill="#e6edf3">              CartrAIder · Unibloom · EchoPort</tspan>
 </text>
 <text class="ln" style="animation-delay:1.29s" x="420" y="260" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="260" fill="#79c0ff">Frontend</tspan><tspan fill="#30363d"> .... </tspan><tspan fill="#e6edf3">React, Next.js, TypeScript, Tailwind</tspan>
+<tspan x="420" y="260" fill="#58a6ff" font-weight="700">- Stack </tspan><tspan fill="#30363d">——————————————————————</tspan>
 </text>
 <text class="ln" style="animation-delay:1.38s" x="420" y="280" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="280" fill="#79c0ff">Mobile</tspan><tspan fill="#30363d"> ...... </tspan><tspan fill="#e6edf3">React Native, Expo</tspan>
+<tspan x="420" y="280" fill="#79c0ff">Frontend</tspan><tspan fill="#30363d"> .... </tspan><tspan fill="#e6edf3">React, Next.js, TypeScript, Tailwind</tspan>
 </text>
 <text class="ln" style="animation-delay:1.47s" x="420" y="300" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="300" fill="#79c0ff">Backend</tspan><tspan fill="#30363d"> ..... </tspan><tspan fill="#e6edf3">Spring Boot, Python</tspan>
+<tspan x="420" y="300" fill="#79c0ff">Mobile</tspan><tspan fill="#30363d"> ...... </tspan><tspan fill="#e6edf3">React Native, Expo</tspan>
 </text>
 <text class="ln" style="animation-delay:1.56s" x="420" y="320" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="320" fill="#79c0ff">Quality</tspan><tspan fill="#30363d"> ..... </tspan><tspan fill="#e6edf3">Playwright, Vitest, Lighthouse CI</tspan>
+<tspan x="420" y="320" fill="#79c0ff">Backend</tspan><tspan fill="#30363d"> ..... </tspan><tspan fill="#e6edf3">Spring Boot, Python</tspan>
 </text>
-<text class="ln" style="animation-delay:1.74s" x="420" y="360" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="360" fill="#58a6ff" font-weight="700">- Contact </tspan><tspan fill="#30363d">—————————————————————</tspan>
+<text class="ln" style="animation-delay:1.65s" x="420" y="340" fill="#e6edf3" xml:space="preserve">
+<tspan x="420" y="340" fill="#79c0ff">Quality</tspan><tspan fill="#30363d"> ..... </tspan><tspan fill="#e6edf3">Playwright, Vitest, Lighthouse CI</tspan>
 </text>
 <text class="ln" style="animation-delay:1.83s" x="420" y="380" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="380" fill="#79c0ff">Email</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#e6edf3">from.dozero@gmail.com</tspan>
+<tspan x="420" y="380" fill="#58a6ff" font-weight="700">- Contact </tspan><tspan fill="#30363d">—————————————————————</tspan>
 </text>
 <text class="ln" style="animation-delay:1.92s" x="420" y="400" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="400" fill="#79c0ff">Blog</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#e6edf3">velog.io/@kdy9883</tspan>
+<tspan x="420" y="400" fill="#79c0ff">Email</tspan><tspan fill="#30363d"> ....... </tspan><tspan fill="#e6edf3">from.dozero@gmail.com</tspan>
 </text>
 <text class="ln" style="animation-delay:2.01s" x="420" y="420" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="420" fill="#79c0ff">Portfolio</tspan><tspan fill="#30363d"> ... </tspan><tspan fill="#e6edf3">doyoungkim-portfolio.vercel.app</tspan>
+<tspan x="420" y="420" fill="#79c0ff">Blog</tspan><tspan fill="#30363d"> ........ </tspan><tspan fill="#e6edf3">velog.io/@kdy9883</tspan>
 </text>
-<text class="ln" style="animation-delay:2.19s" x="420" y="460" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="460" fill="#58a6ff" font-weight="700">- GitHub Stats </tspan><tspan fill="#30363d">———————————————————</tspan>
+<text class="ln" style="animation-delay:2.10s" x="420" y="440" fill="#e6edf3" xml:space="preserve">
+<tspan x="420" y="440" fill="#79c0ff">Portfolio</tspan><tspan fill="#30363d"> ... </tspan><tspan fill="#e6edf3">doyoungkim-portfolio.vercel.app</tspan>
 </text>
 <text class="ln" style="animation-delay:2.28s" x="420" y="480" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="480"><tspan fill="#79c0ff">Repos</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">15</tspan><tspan fill="#30363d"> | </tspan><tspan fill="#79c0ff">Stars</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">1</tspan><tspan fill="#30363d"> | </tspan><tspan fill="#79c0ff">Followers</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">13</tspan></tspan>
+<tspan x="420" y="480" fill="#58a6ff" font-weight="700">- GitHub Stats </tspan><tspan fill="#30363d">———————————————————</tspan>
 </text>
 <text class="ln" style="animation-delay:2.37s" x="420" y="500" fill="#e6edf3" xml:space="preserve">
-<tspan x="420" y="500"><tspan fill="#79c0ff">Contributions (1y)</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">1,377</tspan></tspan>
+<tspan x="420" y="500"><tspan fill="#79c0ff">Repos</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">15</tspan><tspan fill="#30363d"> | </tspan><tspan fill="#79c0ff">Stars</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">1</tspan><tspan fill="#30363d"> | </tspan><tspan fill="#79c0ff">Followers</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">13</tspan></tspan>
 </text>
-<g class="fx" style="animation-delay:2.46s"><rect class="cursor" x="639" y="487" width="8" height="16" fill="#58a6ff"/></g>
-<text x="870" y="534" text-anchor="end" font-size="11" fill="#7d8590">updated 2026.11.09 KST</text>
+<text class="ln" style="animation-delay:2.46s" x="420" y="520" fill="#e6edf3" xml:space="preserve">
+<tspan x="420" y="520"><tspan fill="#79c0ff">Contributions (1y)</tspan><tspan fill="#30363d">: </tspan><tspan fill="#e6edf3" font-weight="700">1,377</tspan></tspan>
+</text>
+<g class="fx" style="animation-delay:2.55s"><rect class="cursor" x="639" y="507" width="8" height="16" fill="#58a6ff"/></g>
+<text x="870" y="554" text-anchor="end" font-size="11" fill="#7d8590">updated 2026.11.09 KST</text>
 </svg>

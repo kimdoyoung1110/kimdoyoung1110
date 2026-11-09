@@ -16,13 +16,22 @@
 
 <img src="assets/ticker.svg" width="100%" alt="주요 성과 티커"/>
 
+## 🏆 Awards
+
+| 대회 | 상 | 프로젝트 · 역할 |
+|---|---|---|
+| **SoftBank Hackathon 2026 본선** <sub>2026.11</sub> | 🏆 **우수상** | **EchoPort** — 멀티 클라우드 BCDR(무중단 이전) 플랫폼 · 팀장 · Web · Infra · 발표 |
+| 창의적종합설계대회 <sub>2026</sub> | 🏅 인기상 | **CartrAIder** — 스마트 AI 카트 · 앱 Frontend 전담 |
+
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
+
 ## 📌 Featured Projects
 
 <p align="center">
-<a href="https://slunch.co.kr/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/veggieverse-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="assets/cards/veggieverse-light.svg"/>
-  <img src="assets/cards/veggieverse-dark.svg" width="49%" alt="VeggieVerse — Slunch Factory"/>
+<a href="https://github.com/Softbank-Hackathon-2026-Team-Echo/echo-frontend"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/echoport-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/echoport-light.svg"/>
+  <img src="assets/cards/echoport-dark.svg" width="49%" alt="EchoPort — SoftBank Hackathon 2026 본선"/>
 </picture></a>
 <a href="https://korea.time.com/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/timekorea-dark.svg"/>
@@ -32,23 +41,23 @@
 </p>
 
 <p align="center">
+<a href="https://slunch.co.kr/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/veggieverse-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/veggieverse-light.svg"/>
+  <img src="assets/cards/veggieverse-dark.svg" width="49%" alt="VeggieVerse — Slunch Factory"/>
+</picture></a>
 <a href="https://gcstop.co.kr"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/gcstop-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="assets/cards/gcstop-light.svg"/>
   <img src="assets/cards/gcstop-dark.svg" width="49%" alt="광클스탑"/>
 </picture></a>
+</p>
+
+<p align="center">
 <a href="https://github.com/CartrAIder"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/cartraider-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="assets/cards/cartraider-light.svg"/>
   <img src="assets/cards/cartraider-dark.svg" width="49%" alt="CartrAIder"/>
-</picture></a>
-</p>
-
-<p align="center">
-<a href="https://github.com/Softbank-Hackathon-2026-Team-Echo/echo-frontend"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/echoport-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="assets/cards/echoport-light.svg"/>
-  <img src="assets/cards/echoport-dark.svg" width="49%" alt="EchoPort — SoftBank Hackathon 2026 본선"/>
 </picture></a>
 <a href="https://www.unibloom.cloud"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/unibloom-dark.svg"/>
@@ -62,6 +71,37 @@
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 💼 Experience
+
+### <img src="assets/logos/echoport.png" width="26" align="center"/> 🏆 SoftBank Hackathon 2026 본선 우수상 — Team Echo 팀장 <sub>2026.10.30 ~ 11.08</sub>
+
+> 재난이 나면 서비스를 AWS · GCP · 온프레미스 사이에서 **무중단 이전**하는 멀티 클라우드 **BCDR(재해 복구) 플랫폼 EchoPort**로 **본선 우수상**을 받았습니다. 5인 팀의 팀장으로 **웹 콘솔을 빈 레포에서 혼자 7일 만에** 운영까지 만들었고, 프론트엔드에 머물지 않고 **클라우드 계정 · 비용 · 배포 경로 · 아키텍처 결정까지 인프라를 함께 챙겼습니다**. 중간보고와 최종 발표도 직접 했고, 서비스명 「에코포트」와 마지막 시연 장면 「랜선을 뽑아도 서비스가 살아 있다」를 제안해 채택됐어요.
+>
+> `React 19` `TypeScript` `TanStack Query` `Tailwind v4` `openapi-fetch` `React Flow` `d3-geo` `GCP` `AWS` `Cloudflare Pages` `GitHub Actions` `Sentry`
+
+<details>
+<summary><b>주요 작업 펼쳐보기</b></summary>
+
+**웹 콘솔 (7일)**
+- 조직 대시보드 · 서비스 작업 공간(6탭) · 배포 진행 · 재난 지도 · 대피 후보 · AI 사전 점검 · 이전 계획 승인 · 이전 실행/결과 · 보안 매트릭스 · 감사 로그 · 온보딩 · 소개 화면까지 **약 20개 화면**
+- 재난 → 대피 → **무중단 이전** → 복귀 흐름 전체 — 운영 리허설에서 긴급 이전 **13초 · 실패 요청 0/167**, 복귀 11초 · 0/146
+- 운영 OpenAPI로 타입을 자동 생성해 서버 계약이 바뀌면 타입 오류로 바로 드러나게 함 (요청 판정 방식 변경으로 생긴 422를 당일 수정)
+- React Flow + elkjs 토폴로지에 트래픽 비율 흐름을, d3-geo 지도에 재난 영향 반경을 그리고, 휴대폰 QR 리모컨 · 960px 반분할 시연 화면 · projector 테마를 만듦
+- 배포 실패 → AI 진단 → 패치 승인 → 수정 커밋 재배포를 화면 이동 없이 한 화면에서 이어 보이게 함
+- 한국어 · 일본어 · 영어 3개 언어(문구 약 1,500개), 재지 않은 값은 지어내지 않고 `—` · `simulated` 로 표시
+
+**인프라 · 운영**
+- 아키텍처 그림을 그리다 **관제탑(API 서버)이 재난 지역인 도쿄에 함께 있는 문제**를 찾아 공유 → 관제탑을 GCP 서울로 옮기고 고객 클러스터와 분리하는 결정을 이끔
+- AWS IAM 계정 · MFA · 리전 규칙, GCP 결제 계정 · 월 예산과 50/90/100% 알림, 클라우드 비용 현황 관리, 대회 뒤 리소스 정리까지 담당
+- Cloudflare Pages 배포 · API CORS 구성, 첫 화면이 Cloudflare 경로로 LA를 거치던 원인을 찾아 **4.6초 → 0.56초**
+- 번들 **516KB → 64KB**, 대시보드 **LCP 896 → 580ms**, GitHub Actions CI + gzip 번들 예산, Sentry(개인정보 · 4xx 제외, 소스맵 비공개), 클릭재킹 방지 보안 헤더
+
+**팀장 · 협업**
+- 킥오프 · 협업 규칙(GitHub 이슈 · ADR · Notion), 매일 회의 알림 · 회의록, 중간보고 · 최종 발표 제출
+- IA(화면 18개 → 메뉴 7개) 설계, 다른 파트에 기다리는 값을 한 이슈로 모아 「시연 전 제공 / 이번엔 뺌」으로 범위를 정함
+- 기술 결정 129줄을 레포 결정 기록으로, 트러블슈팅 8편을 노션으로 남김
+- 예선에서는 Team Daisy 팀장 · Web으로 **Unibloom**(AI가 만든 Terraform으로 4개 클라우드 동시 배포)을 만들었어요
+
+</details>
 
 ### <img src="assets/logos/timekorea.png" width="26" align="center"/> TIME Korea — 프론트엔드 인턴 <sub>2026.09 ~ 현재</sub>
 
@@ -120,35 +160,6 @@
 **커머스 운영 도구**
 - 운영 관리자 화면 초기 구축부터 전담 — 상품 CRUD, 상세페이지 편집기 + Figma export HTML 파이프라인, 재고·출고(fulfillment) 관리
 - 공장 HACCP 관리자 — 완제품 재고 · LOT · 출고 관리, 현장용 모바일 UI 전면 개편
-
-</details>
-
-### <img src="assets/logos/echoport.png" width="26" align="center"/> SoftBank Hackathon 2026 본선 — Team Echo 팀장 · 웹 프론트 · 발표 <sub>2026.10.30 ~ 11.08</sub>
-
-> 재난이 나면 서비스를 AWS · GCP · 온프레미스 사이에서 **무중단 이전**하는 멀티 클라우드 **BCDR(재해 복구) 플랫폼 EchoPort**. 5인 팀의 팀장을 맡으며 웹 콘솔을 **빈 레포에서 혼자 7일 만에** 운영까지 만들었고, 중간보고와 최종 발표를 직접 했습니다. 서비스명 「에코포트」와 마지막 시연 장면인 「랜선을 뽑아도 서비스가 살아 있다」도 제가 제안해 채택됐어요.
->
-> `React 19` `TypeScript` `TanStack Query` `Tailwind v4` `shadcn/ui` `openapi-fetch` `React Flow` `d3-geo` `Vitest` `Cloudflare Pages` `Sentry`
-
-<details>
-<summary><b>주요 작업 펼쳐보기</b></summary>
-
-**웹 콘솔 (7일)**
-- 조직 대시보드 · 서비스 작업 공간(6탭) · 배포 진행 · 재난 지도 · 대피 후보 · AI 사전 점검 · 이전 계획 승인 · 이전 실행/결과 · 보안 매트릭스 · 감사 로그 · 온보딩 · 소개 화면까지 **약 20개 화면**
-- 재난 → 대피 → **무중단 이전** → 복귀 흐름 전체 — 운영 리허설에서 긴급 이전 **13초 · 실패 요청 0/167**, 복귀 11초 · 0/146
-- 운영 OpenAPI로 타입을 자동 생성해 서버 계약이 바뀌면 타입 오류로 바로 드러나게 함 (요청 판정 방식 변경으로 생긴 422를 당일 수정)
-- React Flow + elkjs 토폴로지에 트래픽 비율 흐름을, d3-geo 지도에 재난 영향 반경을 그리고, 휴대폰 QR 리모컨 · 960px 반분할 시연 화면 · projector 테마를 만듦
-- 배포 실패 → AI 진단 → 패치 승인 → 수정 커밋 재배포를 화면 이동 없이 한 화면에서 이어 보이게 함
-- 한국어 · 일본어 · 영어 3개 언어(문구 약 1,500개), 재지 않은 값은 지어내지 않고 `—` · `simulated` 로 표시
-
-**성능 · 운영 품질**
-- 번들 **516KB → 64KB** (elkjs 웹 워커 · 지도 데이터 축소), 첫 화면 **4.6초 → 0.56초** (Cloudflare 경로가 LAX를 거치던 원인을 찾아 DNS only 전환), 대시보드 **LCP 896 → 580ms**
-- GitHub Actions CI + gzip 번들 예산, Sentry(개인정보 · 4xx 제외, 소스맵 비공개), 클릭재킹 방지 보안 헤더, 배포 뒤 옛 탭 자동 복구
-
-**팀장 · 협업**
-- 킥오프 · 협업 규칙(GitHub 이슈 · ADR · Notion), GitHub · AWS · GCP 계정과 권한, 매일 회의 알림 · 회의록, 클라우드 비용 관리와 정산
-- IA(화면 18개 → 메뉴 7개)와 아키텍처 그림을 그리다 관제탑이 재난 지역(도쿄)에 있는 문제를 찾아 GCP 서울로 옮기는 결정에 이바지
-- 프론트가 다른 파트에 기다리는 값을 한 이슈로 모아 「시연 전 제공 / 이번엔 뺌」을 받아 범위를 정함, 서버에는 API 요청 이슈 4건
-- 기술 결정 129줄을 레포 결정 기록으로, 트러블슈팅 8편을 노션으로 남김
 
 </details>
 
