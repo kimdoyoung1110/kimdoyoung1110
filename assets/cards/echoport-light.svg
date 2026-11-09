@@ -22,8 +22,8 @@
 <text x="22" y="102" font-size="13.5" fill="#1f2328">재난이 나면 서비스를 다른 클라우드로 무중단 이전하는 멀티</text>
 <text x="22" y="123" font-size="13.5" fill="#1f2328">클라우드 BCDR 플랫폼. 웹 콘솔을 혼자 만들었어요.</text>
 </g>
-<g class="chip" style="animation-delay:0.45s"><rect x="22" y="150" width="75" height="24" rx="12" fill="#ddf4ff"/><text x="59" y="166.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0550ae">🏆 우수상</text></g>
-<g class="chip" style="animation-delay:0.60s"><rect x="104.72" y="150" width="148" height="24" rx="12" fill="#ddf4ff"/><text x="179" y="166.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0550ae">3클라우드 무중단 이전</text></g>
-<g class="chip" style="animation-delay:0.75s"><rect x="260.88" y="150" width="78" height="24" rx="12" fill="#ddf4ff"/><text x="300" y="166.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0550ae">DB 누락 0</text></g>
+<g class="chip" style="animation-delay:0.45s"><rect x="22" y="150" width="107" height="24" rx="12" fill="#ddf4ff"/><text x="75" y="166.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0550ae">🏆 우수상(2위)</text></g>
+<g class="chip" style="animation-delay:0.60s"><rect x="136.88" y="150" width="148" height="24" rx="12" fill="#ddf4ff"/><text x="211" y="166.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0550ae">3클라우드 무중단 이전</text></g>
+<g class="chip" style="animation-delay:0.75s"><rect x="293.03999999999996" y="150" width="78" height="24" rx="12" fill="#ddf4ff"/><text x="332" y="166.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0550ae">DB 누락 0</text></g>
 <text class="fx" style="animation-delay:0.95s" x="22" y="200" font-size="12" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','D2Coding',monospace" fill="#656d76">React 19 · TanStack Query · Tailwind v4 · OpenAPI</text>
 </svg>

@@ -229,7 +229,7 @@ def terminal_card(theme: str, stats: dict) -> str:
         ("title", f"{USER}@github"),
         ("rule",),
         kv("Role", "Frontend Engineer · 풀스택 지향"),
-        kv("Award", "🏆 SoftBank Hackathon 2026 본선 우수상"),
+        kv("Award", "🏆 SoftBank Hackathon 2026 우수상(2위)"),
         kv("Now", "TIME Korea · Frontend Intern"),
         kv("Prev", "Slunch Factory · Frontend (2026.05–10)"),
         kv("Research", "인천대 글로벌 앱센터 · LLM / RAG"),
@@ -307,7 +307,7 @@ PROJECTS = [
         "id": "echoport", "logo": "echoport.png", "name": "EchoPort",
         "org": "SoftBank Hackathon 본선", "meta": "2026.11 · 팀장 · Web · Infra",
         "desc": "재난이 나면 서비스를 다른 클라우드로 무중단 이전하는 멀티 클라우드 BCDR 플랫폼. 웹 콘솔을 혼자 만들었어요.",
-        "chips": ["🏆 우수상", "3클라우드 무중단 이전", "DB 누락 0"],
+        "chips": ["🏆 우수상(2위)", "3클라우드 무중단 이전", "DB 누락 0"],
         "tech": "React 19 · TanStack Query · Tailwind v4 · OpenAPI",
     },
     {

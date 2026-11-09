@@ -20,7 +20,7 @@
 
 | 수상 | 프로젝트 · 역할 |
 |---|---|
-| 🏆 **우수상** · **SoftBank Hackathon 2026 본선** <sub>2026.11</sub> | **EchoPort** — 멀티 클라우드 BCDR(무중단 이전) 플랫폼 · 팀장 · Web · Infra · 발표 |
+| 🏆 **우수상 (2위)** · **SoftBank Hackathon 2026 본선** <sub>2026.11 · powered by Progate & KOREC</sub> | **EchoPort** — 멀티 클라우드 BCDR(무중단 이전) 플랫폼 · 팀장 · Web · Infra · 발표 |
 | 🏅 **인기상** · 창의적종합설계대회 <sub>2026</sub> | **CartrAIder** — 스마트 AI 카트 · 앱 Frontend 전담 |
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
@@ -31,7 +31,7 @@
 <a href="https://github.com/Softbank-Hackathon-2026-Team-Echo/echo-frontend"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/echoport-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="assets/cards/echoport-light.svg"/>
-  <img src="assets/cards/echoport-dark.svg" width="49%" alt="EchoPort — SoftBank Hackathon 2026 본선"/>
+  <img src="assets/cards/echoport-dark.svg" width="49%" alt="EchoPort — SoftBank Hackathon 2026 본선 우수상(2위)"/>
 </picture></a>
 <a href="https://korea.time.com/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/timekorea-dark.svg"/>
@@ -72,9 +72,9 @@
 
 ## 💼 Experience
 
-### <img src="assets/logos/echoport.png" width="26" align="center"/> 🏆 SoftBank Hackathon 2026 본선 우수상 — Team Echo 팀장 <sub>2026.10.30 ~ 11.08</sub>
+### <img src="assets/logos/echoport.png" width="26" align="center"/> 🏆 SoftBank Hackathon 2026 본선 우수상(2위) — Team Echo 팀장 <sub>2026.10.30 ~ 11.08</sub>
 
-> 재난이 나면 서비스를 AWS · GCP · 온프레미스 사이에서 **무중단 이전**하는 멀티 클라우드 **BCDR(재해 복구) 플랫폼 EchoPort**로 **본선 우수상**을 받았습니다. 5인 팀의 팀장으로 **웹 콘솔을 빈 레포에서 혼자 7일 만에** 운영까지 만들었고, 프론트엔드에 머물지 않고 **클라우드 계정 · 비용 · 배포 경로 · 아키텍처 결정까지 인프라를 함께 챙겼습니다**. 중간보고와 최종 발표도 직접 했고, 서비스명 「에코포트」와 마지막 시연 장면 「랜선을 뽑아도 서비스가 살아 있다」를 제안해 채택됐어요.
+> 재난이 나면 서비스를 AWS · GCP · 온프레미스 사이에서 **무중단 이전**하는 멀티 클라우드 **BCDR(재해 복구) 플랫폼 EchoPort**로 **본선 우수상(2위)** 을 받았습니다 <sub>(SoftBank Hackathon 2026 powered by Progate & KOREC)</sub>. 5인 팀의 팀장으로 **웹 콘솔을 빈 레포에서 혼자 7일 만에** 운영까지 만들었고, 프론트엔드에 머물지 않고 **클라우드 계정 · 비용 · 배포 경로 · 아키텍처 결정까지 인프라를 함께 챙겼습니다**. 중간보고와 최종 발표도 직접 했고, 서비스명 「에코포트」와 마지막 시연 장면 「랜선을 뽑아도 서비스가 살아 있다」를 제안해 채택됐어요.
 >
 > `React 19` `TypeScript` `TanStack Query` `Tailwind v4` `openapi-fetch` `React Flow` `d3-geo` `GCP` `AWS` `Cloudflare Pages` `GitHub Actions` `Sentry`
 
