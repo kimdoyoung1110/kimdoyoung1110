@@ -20,8 +20,8 @@
 
 | 대회 | 상 | 프로젝트 · 역할 |
 |---|---|---|
-| **SoftBank Hackathon 2026 본선** <sub>2026.11</sub> | 🏆 **우수상** | **EchoPort** — 멀티 클라우드 BCDR(무중단 이전) 플랫폼 · 팀장 · Web · Infra · 발표 |
-| 창의적종합설계대회 <sub>2026</sub> | 🏅 인기상 | **CartrAIder** — 스마트 AI 카트 · 앱 Frontend 전담 |
+| **SoftBank Hackathon 2026 본선** <sub>2026.11</sub> | 🏆&nbsp;**우수상** | **EchoPort** — 멀티 클라우드 BCDR(무중단 이전) 플랫폼 · 팀장 · Web · Infra · 발표 |
+| 창의적종합설계대회 <sub>2026</sub> | 🏅&nbsp;인기상 | **CartrAIder** — 스마트 AI 카트 · 앱 Frontend 전담 |
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
